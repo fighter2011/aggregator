@@ -1,152 +1,63 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: A美国111
-  network: ws
-  port: 2082
-  server: cf1.yunduanjc.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: dc67c810-ad01-4a20-a723-a0c423ab7f0a
-  ws-opts:
-    headers:
-      Host: fmg.yunduanjc.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: A美国222
-  network: ws
-  port: 2082
-  server: cf2.yunduanjc.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: dc67c810-ad01-4a20-a723-a0c423ab7f0a
-  ws-opts:
-    headers:
-      Host: fmg.yunduanjc.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: CF-WCK
+  name: CC-EXW
   port: 49309
   server: yoyo.cmyiphone.top
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
-  name: CS-LBO
+  name: CV-LIC
   port: 49309
   server: yoyo.cmyiphone.top
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
-- cipher: chacha20-ietf-poly1305
-  name: 亚洲01X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51892
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
+- alterId: 0
+  cipher: auto
+  name: 中国-香港-005
+  network: ws
+  port: 23532
+  server: 212.192.12.70
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚洲02X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51893
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
+  uuid: ca897a6b-30ec-4f18-a855-cfac02dc7eec
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-圣彼得堡-014
+  network: ws
+  port: 23532
+  server: 195.58.49.50
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚洲03X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51894
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
+  uuid: ca897a6b-30ec-4f18-a855-cfac02dc7eec
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-圣彼得堡-015
+  network: ws
+  port: 23532
+  server: 195.58.49.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚洲04X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51895
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚洲05X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51896
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚洲06X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51897
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚洲07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21667
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 亚洲08X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21699
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 亚洲09X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51674
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 亚洲10X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51675
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 亚洲11X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51676
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 亚洲12X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51677
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 亚洲13X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51678
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 亚洲14X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21603
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
+  uuid: ca897a6b-30ec-4f18-a855-cfac02dc7eec
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 加拿大 IEPL专线 NO1
@@ -156,7 +67,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 加拿大1
@@ -166,7 +77,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 加拿大2
@@ -176,7 +87,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 印度 IEPL专线NO1
@@ -186,7 +97,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 印度1
@@ -196,7 +107,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 印度2
@@ -206,10 +117,10 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - cipher: chacha20-ietf-poly1305
   name: 台湾 1
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 20032
   server: gy.666666222.shop
   type: ss
@@ -223,19 +134,12 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - cipher: chacha20-ietf-poly1305
   name: 台湾01
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 47564
   server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾01X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51667
-  server: ct1.notinsmingrsfsorg.lol
   type: ss
   udp: true
 - alterId: 0
@@ -248,53 +152,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f8ec8662-b9e6-47f8-aa77-10178ebb42ac
+  uuid: ee9d1f54-9558-43e7-a43c-c63bd20d5877
   ws-opts:
     headers:
       Host: tw02.hy2.one
     path: /af323d
-- cipher: chacha20-ietf-poly1305
-  name: 台湾02X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51690
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾03X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51691
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾04X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51692
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾05X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51693
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾06X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51694
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾07X3.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21619
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 台湾1
@@ -304,7 +166,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 台湾2
@@ -314,7 +176,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 台湾2全天极速优先使用|X3
@@ -325,95 +187,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8789add2-8119-43f6-b350-55ee0d938648
+  uuid: ffca26aa-2358-4ace-975d-fc620c0f8626
   ws-opts:
     headers:
       Host: tw02.xn--io0a7iw0ab67b.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 土耳其01
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51781
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 土耳其02
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51782
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 土耳其03
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51783
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 土耳其04
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51784
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 土耳其05
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51785
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 土耳其06
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51786
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 土耳其07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21678
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 巴西01
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51778
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 巴西02
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51779
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 巴西03
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51787
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 巴西04
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51780
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 巴西05X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21647
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 德国 IEPL专线NO1
@@ -423,56 +201,20 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
-- cipher: chacha20-ietf-poly1305
-  name: 德国01X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51757
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-001
+  network: ws
+  port: 23532
+  server: 5.39.252.204
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国02X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51752
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国03X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51753
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国04X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51754
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国05X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51755
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国06X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51756
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21685
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
+  uuid: ca897a6b-30ec-4f18-a855-cfac02dc7eec
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 新加坡 IEPL专线NO1
@@ -482,14 +224,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡01X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51909
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 新加坡02-V4-流媒体
@@ -500,53 +235,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f8ec8662-b9e6-47f8-aa77-10178ebb42ac
+  uuid: ee9d1f54-9558-43e7-a43c-c63bd20d5877
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
     path: /0
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡02X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51910
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡03X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51911
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡04X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51912
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡05X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51913
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡06X1.5
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51914
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡07X3.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21677
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1
@@ -556,7 +249,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -566,7 +259,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 日本 IEPL专线NO3
@@ -576,131 +269,33 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - cipher: chacha20-ietf-poly1305
   name: 日本01
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 20002
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本01X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51711
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 日本02
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 20004
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本02X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51712
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 日本03
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 20006
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本03X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51713
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 日本04
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 20008
   server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本04X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51714
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本05X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51715
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本06X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51718
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21627
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本08X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51719
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本09X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51720
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本10X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51727
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本11X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51728
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本12X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51729
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本13X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51730
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本14X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21679
-  server: cccm1.notinsmingrsfsorg.lol
   type: ss
   udp: true
 - alterId: 0
@@ -712,7 +307,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -722,7 +317,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 法国 CM 隧道NO1
@@ -732,7 +327,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 法国1
@@ -742,7 +337,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 法国2
@@ -752,7 +347,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 泰国 IEPL专线 NO1
@@ -762,42 +357,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
-- cipher: chacha20-ietf-poly1305
-  name: 泰国01
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51771
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 泰国02
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51773
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 泰国03
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51775
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 泰国04
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51777
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 泰国05X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21646
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 澳大利亚 IEPL专线NO1
@@ -807,7 +367,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1
@@ -817,7 +377,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2
@@ -827,56 +387,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
-- cipher: chacha20-ietf-poly1305
-  name: 澳洲01X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51726
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳洲02X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51721
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳洲03X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51722
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳洲04X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51723
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳洲05X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51724
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳洲06X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51725
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳洲07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21645
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 澳门NO.2
@@ -886,7 +397,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 美国 IEPL专线NO1
@@ -896,117 +407,19 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - cipher: chacha20-ietf-poly1305
   name: 美国 纽约01
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 20013
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 美国 纽约2
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 20016
   server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国01X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51872
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国02X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51873
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国03X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51874
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国04X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51875
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国05X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51876
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国06X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51877
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21689
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国08X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51886
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国09X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51881
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国10X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51882
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国11X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51883
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国12X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51884
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国13X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51885
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国14X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21687
-  server: cccm1.notinsmingrsfsorg.lol
   type: ss
   udp: true
 - alterId: 0
@@ -1019,7 +432,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8789add2-8119-43f6-b350-55ee0d938648
+  uuid: ffca26aa-2358-4ace-975d-fc620c0f8626
   ws-opts:
     headers:
       Host: us5.sulink.one
@@ -1033,7 +446,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 美国NO.2
@@ -1043,56 +456,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
-- cipher: chacha20-ietf-poly1305
-  name: 英国01X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51747
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 英国02X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51742
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 英国03X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51743
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 英国04X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51744
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 英国05X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51745
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 英国06X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51746
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 英国07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21683
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 荷兰 IEPL专线NO1
@@ -1102,56 +466,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰01X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51737
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰02X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51732
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰03X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51733
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰04X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51734
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰05X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51735
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰06X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51736
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21681
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 葡萄牙 IEPL专线NO1
@@ -1161,56 +476,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
-- cipher: aes-128-gcm
-  name: 越南01X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51671
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 越南02X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51695
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 越南03X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51696
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 越南04X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51697
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 越南05X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51698
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 越南06X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51699
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 越南07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21692
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 阿根廷 IEPL专线NO1
@@ -1220,7 +486,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 非洲 IEPL专线 NO1
@@ -1230,7 +496,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - alterId: 0
   cipher: auto
   name: 韩国 IEPL专线NO1
@@ -1240,63 +506,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - name: 韩国-三网优化2
-  password: 7d0c60c6-3c25-41d3-a679-57845833387c
+  password: 6226f2fd-ee30-4b74-a130-5dbc738c91bd
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
   sni: kr-qingyun.dwyun.me
   type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国01X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51767
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国02X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51768
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国03X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51763
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国04X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51764
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国05X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51765
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国06X0.9
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51766
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21686
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -1307,7 +524,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 香港 IEPL专线NO3
@@ -1317,75 +534,26 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4e63afb2-0cde-4d81-a7d7-13637edb2247
+  uuid: 4c3fc07a-43fa-4f9b-a221-5c49f116d12f
 - cipher: chacha20-ietf-poly1305
   name: 香港01
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 34338
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港01X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51679
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 香港02
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 20035
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港02X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51680
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 香港03
-  password: 2ff5c04d-7d47-4ec3-9988-75c657d903e7
+  password: abd556cf-e138-437e-ba71-5cc13b92b29e
   port: 20052
   server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港03X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51681
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港04X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51682
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港05X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51683
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港06X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51684
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21608
-  server: cccm1.notinsmingrsfsorg.lol
   type: ss
   udp: true
 - alterId: 0
@@ -1397,56 +565,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 35e68f3b-cd60-4c18-bd9e-d85cb5caf15f
-- cipher: aes-128-gcm
-  name: 马来01X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51716
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 马来02X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51701
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 马来03X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51702
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 马来04X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51703
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 马来05X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51704
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 马来06X1.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 51705
-  server: ct1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 马来07X2.0
-  password: 2ca81665-4abb-4599-9027-6269f8c33c46
-  port: 21691
-  server: cccm1.notinsmingrsfsorg.lol
-  type: ss
-  udp: true
+  uuid: e7ba557d-18ff-4765-9dba-36423795bca7
 - alterId: 0
   cipher: auto
   name: 使用一-1A
@@ -1456,7 +575,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 使用一-1B
@@ -1466,7 +585,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - alterId: 0
   cipher: auto
   name: 使用二-1A
@@ -1476,7 +595,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 使用二-1B
@@ -1486,7 +605,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - alterId: 0
   cipher: auto
   name: 加拿大丨快速-1A
@@ -1496,7 +615,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 加拿大丨快速-1B
@@ -1506,17 +625,17 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - cipher: chacha20-ietf-poly1305
   name: 印度原生IP-1A
-  password: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  password: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
   port: 49308
   server: yoyo.cmyiphone.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 印度原生IP-1B
-  password: ce125cf8-e758-42a3-a98d-505f0333f05b
+  password: aaac7741-8ba9-432d-902f-82920d0d6b42
   port: 49308
   server: yoyo.cmyiphone.top
   type: ss
@@ -1530,7 +649,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 台湾丨解-1B
@@ -1540,17 +659,17 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - cipher: chacha20-ietf-poly1305
   name: 德国原生IP-1A
-  password: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  password: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
   port: 49305
   server: yoyo.cmyiphone.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 德国原生IP-1B
-  password: ce125cf8-e758-42a3-a98d-505f0333f05b
+  password: aaac7741-8ba9-432d-902f-82920d0d6b42
   port: 49305
   server: yoyo.cmyiphone.top
   type: ss
@@ -1564,7 +683,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 新加坡丨解-1B
@@ -1574,7 +693,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - alterId: 0
   cipher: auto
   name: 日本丨解-1A
@@ -1584,7 +703,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 日本丨解-1B
@@ -1594,7 +713,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - alterId: 0
   cipher: auto
   name: 日本原生IP-1A
@@ -1604,7 +723,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 日本原生IP-1B
@@ -1614,7 +733,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - alterId: 0
   cipher: auto
   name: 泰国丨快速-1A
@@ -1624,7 +743,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 泰国丨快速-1B
@@ -1634,17 +753,17 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - cipher: chacha20-ietf-poly1305
   name: 澳大利亚原生IP-1A
-  password: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  password: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
   port: 49314
   server: yoyo.cmyiphone.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 澳大利亚原生IP-1B
-  password: ce125cf8-e758-42a3-a98d-505f0333f05b
+  password: aaac7741-8ba9-432d-902f-82920d0d6b42
   port: 49314
   server: yoyo.cmyiphone.top
   type: ss
@@ -1658,7 +777,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 美国 01-1B
@@ -1668,7 +787,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - alterId: 0
   cipher: auto
   name: 美国 02-1A
@@ -1678,7 +797,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 美国 02-1B
@@ -1688,7 +807,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - alterId: 0
   cipher: auto
   name: 美国丨快速-1A
@@ -1698,7 +817,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 美国丨快速-1B
@@ -1708,17 +827,17 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - cipher: chacha20-ietf-poly1305
   name: 英国原生IP-1A
-  password: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  password: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
   port: 49306
   server: yoyo.cmyiphone.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 英国原生IP-1B
-  password: ce125cf8-e758-42a3-a98d-505f0333f05b
+  password: aaac7741-8ba9-432d-902f-82920d0d6b42
   port: 49306
   server: yoyo.cmyiphone.top
   type: ss
@@ -1732,7 +851,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 越南丨解-1B
@@ -1742,17 +861,17 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - cipher: chacha20-ietf-poly1305
   name: 韩国原生IP-1A
-  password: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  password: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
   port: 49311
   server: yoyo.cmyiphone.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国原生IP-1B
-  password: ce125cf8-e758-42a3-a98d-505f0333f05b
+  password: aaac7741-8ba9-432d-902f-82920d0d6b42
   port: 49311
   server: yoyo.cmyiphone.top
   type: ss
@@ -1766,7 +885,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 香港 01-1B
@@ -1776,17 +895,17 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
 - cipher: chacha20-ietf-poly1305
   name: 香港 02-1A
-  password: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  password: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
   port: 49319
   server: yoyo.cmyiphone.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港 02-1B
-  password: ce125cf8-e758-42a3-a98d-505f0333f05b
+  password: aaac7741-8ba9-432d-902f-82920d0d6b42
   port: 49319
   server: yoyo.cmyiphone.top
   type: ss
@@ -1800,7 +919,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd3fe62e-25e1-4116-9a01-604bccaa8540
+  uuid: 501a6a86-aa85-4beb-88a7-3fd1039bdab6
 - alterId: 0
   cipher: auto
   name: 马来西亚丨解-1B
@@ -1810,4 +929,4 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ce125cf8-e758-42a3-a98d-505f0333f05b
+  uuid: aaac7741-8ba9-432d-902f-82920d0d6b42
