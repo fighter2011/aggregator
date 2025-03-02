@@ -1,30 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 中国-香港
-  network: ws
-  port: 20336
-  server: 45.144.174.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 下方为备用节点
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 8888
+  server: cainiao999.top
+  type: ss
   udp: true
-  uuid: e4849a6a-6436-4abe-a2eb-fe7243133d95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯-圣彼得堡-015
-  network: ws
-  port: 20335
-  server: 195.58.49.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e4849a6a-6436-4abe-a2eb-fe7243133d95
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 加拿大1
@@ -34,7 +15,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 加拿大2
@@ -44,7 +25,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 印度1
@@ -54,7 +35,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 印度2
@@ -64,17 +45,24 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
+- cipher: chacha20-ietf-poly1305
+  name: 印度中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 21061
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾 1
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
   port: 20032
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾01
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
   port: 47564
   server: gy.666666222.shop
   type: ss
@@ -88,7 +76,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 台湾2
@@ -98,20 +86,70 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-002
-  network: ws
-  port: 20335
-  server: 91.149.233.124
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 50555
+  server: chiyu.myfczy169.top
+  type: ss
   udp: true
-  uuid: e4849a6a-6436-4abe-a2eb-fe7243133d95
-  ws-opts:
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 02
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 25710
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 03
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 41512
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 04
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 40780
+  server: chiyu2.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 05
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 47695
+  server: chiyu2.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 哈撒哈斯坦中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 21081
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 土耳其中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 21048
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 巴西中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 20936
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 德国中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 21091
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1
@@ -121,7 +159,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -131,31 +169,66 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - cipher: chacha20-ietf-poly1305
-  name: 日本01
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
-  port: 20002
-  server: gy.666666222.shop
+  name: 新加坡中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 26867
+  server: chiyu.myfczy169.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本02
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
-  port: 20004
-  server: gy.666666222.shop
+  name: 新加坡中转 02
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 13127
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 03
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 37958
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 04
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 47639
+  server: chiyu2.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 05
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 57141
+  server: chiyu2.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本01-海外直连
+  password: 3bfb1be7-e1c9-4e3a-baa8-5be8b6895bed
+  port: 42565
+  server: 3.112.247.204
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本02-海外直连
+  password: 3bfb1be7-e1c9-4e3a-baa8-5be8b6895bed
+  port: 31890
+  server: 52.196.42.62
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本03
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
   port: 20006
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本04
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
   port: 20008
   server: gy.666666222.shop
   type: ss
@@ -169,7 +242,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -179,7 +252,42 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 41473
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 02
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 25578
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 03
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 49821
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 04
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 39886
+  server: chiyu2.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 05
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 16542
+  server: chiyu2.myfczy169.top
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 法国1
@@ -189,7 +297,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 法国2
@@ -199,7 +307,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
+- cipher: chacha20-ietf-poly1305
+  name: 泰国中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 20289
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1
@@ -209,7 +324,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2
@@ -219,51 +334,42 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
+- cipher: chacha20-ietf-poly1305
+  name: 狮城04
+  password: 3bfb1be7-e1c9-4e3a-baa8-5be8b6895bed
+  port: 49787
+  server: syrk04.laiyunnode.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 狮城04-海外直连
+  password: 3bfb1be7-e1c9-4e3a-baa8-5be8b6895bed
+  port: 33020
+  server: 13.212.229.168
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 瑞典中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 22539
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 美国 纽约01
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
   port: 20013
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 美国 纽约2
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
   port: 20016
   server: gy.666666222.shop
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国-拉斯维加斯-001
-  network: ws
-  port: 443
-  server: biazh.mmzhk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e4849a6a-6436-4abe-a2eb-fe7243133d95
-  ws-opts:
-    headers:
-      Host: biazh.mmzhk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国-拉斯维加斯-002
-  network: ws
-  port: 443
-  server: pdizy.whmvmkwuey.store
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e4849a6a-6436-4abe-a2eb-fe7243133d95
-  ws-opts:
-    headers:
-      Host: pdizy.whmvmkwuey.store
-    path: /
 - alterId: 0
   cipher: auto
   name: 美国NO.1
@@ -273,7 +379,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 美国NO.2
@@ -283,7 +389,28 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
+- cipher: chacha20-ietf-poly1305
+  name: 美国中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 13489
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国中转 02
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 19161
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国中转 03
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 50563
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 英国1
@@ -293,7 +420,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 英国2
@@ -303,14 +430,63 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
+- cipher: chacha20-ietf-poly1305
+  name: 英国中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 26480
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 英国中转 02
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 19115
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 英国中转 03
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 57329
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 越南中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 21071
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 阿联酋中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 21059
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
 - name: 韩国-三网优化2
-  password: 445958f2-a028-4b5e-a627-b0d43738bc53
+  password: b9050868-6945-41cb-9fce-8a3e5a30916e
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
   sni: kr-qingyun.dwyun.me
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 首尔03
+  password: 3bfb1be7-e1c9-4e3a-baa8-5be8b6895bed
+  port: 43928
+  server: syrk03.laiyunnode.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 首尔03-海外直连
+  password: 3bfb1be7-e1c9-4e3a-baa8-5be8b6895bed
+  port: 33190
+  server: 43.203.244.48
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -321,24 +497,24 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - cipher: chacha20-ietf-poly1305
   name: 香港01
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
   port: 34338
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港02
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
   port: 20035
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港03
-  password: 90ac5eb2-773a-4245-911b-c281cfbe3209
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
   port: 20052
   server: gy.666666222.shop
   type: ss
@@ -352,7 +528,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -362,4 +538,74 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 877111f1-71c2-4369-83f0-76532f86a798
+  uuid: ff57a6c7-1d3b-420a-afde-b191d3b79b76
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 54016
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 02
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 19946
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 03
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 54804
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 04
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 50815
+  server: chiyu2.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 05
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 19055
+  server: chiyu2.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 马来西亚中转 01
+  password: 9b7f58b3-3d46-4276-9d39-db96c25697e1
+  port: 20119
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本01-1A
+  password: 3bfb1be7-e1c9-4e3a-baa8-5be8b6895bed
+  port: 56484
+  server: syrk01.laiyunnode.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本01-1B
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
+  port: 20002
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本02-1A
+  password: 3bfb1be7-e1c9-4e3a-baa8-5be8b6895bed
+  port: 32941
+  server: syrk02.laiyunnode.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本02-1B
+  password: ecce5742-04eb-45c1-b07d-2833d83099fb
+  port: 20004
+  server: gy.666666222.shop
+  type: ss
+  udp: true
