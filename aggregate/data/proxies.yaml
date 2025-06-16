@@ -1,18 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 乌克兰 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 53188
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 加拿大 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 11235
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 加拿大1
@@ -22,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 加拿大2
@@ -32,14 +18,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- cipher: chacha20-ietf-poly1305
-  name: 印度 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 16130
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 印度1
@@ -49,7 +28,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 印度2
@@ -59,21 +38,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- cipher: chacha20-ietf-poly1305
-  name: 印度尼西亚 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 48020
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 11159
-  server: gz3.pddwdf.store
-  type: ss
-  udp: true
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 台湾1
@@ -83,7 +48,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 台湾2
@@ -93,44 +58,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- alterId: 0
-  cipher: auto
-  name: 官 址
-  network: ws
-  port: 2956
-  server: mxdx.pddwdf.store
-  servername: mxdxv.pddwdf.store
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  ws-opts:
-    headers:
-      Host: www.python.org
-    path: /wahaha
-- cipher: chacha20-ietf-poly1305
-  name: 巴西 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 29434
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 22793
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 19191
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1
@@ -140,7 +68,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -150,14 +78,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- cipher: chacha20-ietf-poly1305
-  name: 日本 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 51835
-  server: sh.pddwdf.store
-  type: ss
-  udp: true
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 日本NO.1
@@ -167,7 +88,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -177,14 +98,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- cipher: chacha20-ietf-poly1305
-  name: 法国 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 28771
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 法国1
@@ -194,7 +108,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 法国2
@@ -204,14 +118,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- cipher: chacha20-ietf-poly1305
-  name: 泰国 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 53671
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 泰国NO1
@@ -221,7 +128,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 泰国NO2
@@ -231,7 +138,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1
@@ -241,7 +148,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2
@@ -251,43 +158,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- cipher: chacha20-ietf-poly1305
-  name: 澳门 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 40400
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国 3
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 37735
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国 4
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 43796
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国-FREE优化节点-CDN | 2X
-  network: ws
-  port: 8080
-  server: tci1.tiamoci.us.kg
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 13f06562-6850-467d-90e4-2ac7b3daaab4
-  ws-opts:
-    headers:
-      Host: tci1.tiamoci.us.kg
-    path: /
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 美国NO.1
@@ -297,7 +168,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 美国NO.2
@@ -307,29 +178,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- cipher: chacha20-ietf-poly1305
-  name: 英国 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 27851
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 英国-FREE优化节点-CDN | 2X
-  network: ws
-  port: 8080
-  server: tci2.tiamoci.us.kg
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 13f06562-6850-467d-90e4-2ac7b3daaab4
-  ws-opts:
-    headers:
-      Host: tci2.tiamoci.us.kg
-    path: /
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 英国1
@@ -339,7 +188,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 英国2
@@ -349,43 +198,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 54023
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 荷兰-FREE优化节点-CDN | 2X
-  network: ws
-  port: 8080
-  server: tci3.tiamoci.us.kg
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 13f06562-6850-467d-90e4-2ac7b3daaab4
-  ws-opts:
-    headers:
-      Host: tci3.tiamoci.us.kg
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 菲律宾 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 39789
-  server: sh.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国 2
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 43387
-  server: sh.pddwdf.store
-  type: ss
-  udp: true
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1
@@ -395,7 +208,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2
@@ -405,9 +218,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - name: 韩国-三网优化2
-  password: 52d50608-637f-4bac-b3c1-80951bc25158
+  password: f395f440-9340-4fe9-b696-1b6cad80f60a
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
@@ -423,21 +236,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
-- cipher: chacha20-ietf-poly1305
-  name: 香港 3
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 19509
-  server: sh.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港 4
-  password: 899af708-96f4-4665-bcdc-e9a68c241fb9
-  port: 10443
-  server: sh.pddwdf.store
-  type: ss
-  udp: true
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 香港NO.1
@@ -447,7 +246,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -457,7 +256,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO1
@@ -467,7 +266,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO2
@@ -477,4 +276,4 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f7e5f577-7a0a-413a-b859-54184211b21f
+  uuid: 8c4aea99-2c23-47bf-ac2c-b4b5b1098393
