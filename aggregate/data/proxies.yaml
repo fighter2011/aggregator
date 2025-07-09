@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 加拿大2
@@ -18,7 +18,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 印度1
@@ -28,7 +28,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 印度2
@@ -38,7 +38,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 台湾1
@@ -48,7 +48,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 台湾2
@@ -58,7 +58,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1
@@ -68,7 +68,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -78,7 +78,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 日本NO.1
@@ -88,7 +88,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -98,7 +98,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 法国1
@@ -108,7 +108,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 法国2
@@ -118,7 +118,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 泰国NO1
@@ -128,7 +128,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 泰国NO2
@@ -138,7 +138,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1
@@ -148,7 +148,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2
@@ -158,7 +158,33 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+- alterId: 0
+  cipher: auto
+  name: 美国-拉斯维加斯-002
+  network: ws
+  port: 23119
+  server: 185.143.221.140
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 403e448c-fc1e-454b-9ac7-de1fec5f82fd
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国-拉斯维加斯-003
+  network: ws
+  port: 25002
+  server: 185.143.221.140
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 403e448c-fc1e-454b-9ac7-de1fec5f82fd
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国NO.1
@@ -168,7 +194,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 美国NO.2
@@ -178,7 +204,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 英国1
@@ -188,7 +214,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 英国2
@@ -198,7 +224,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1
@@ -208,7 +234,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2
@@ -218,9 +244,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - name: 韩国-三网优化2
-  password: 75a202d0-8f8c-4a8c-a1e9-194732e9eb8c
+  password: 1b1023a6-3b22-4724-ad4c-38f79ebec31d
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
@@ -236,7 +262,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 香港NO.1
@@ -246,7 +272,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -256,7 +282,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO1
@@ -266,7 +292,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO2
@@ -276,4 +302,4 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2afa169c-1b06-4d3d-bb5c-b269071b4b6f
+  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
