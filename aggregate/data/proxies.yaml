@@ -1,64 +1,222 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 加拿大1
-  port: 45064
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 伊拉克1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23136
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 加拿大2
-  port: 45065
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 伊拉克2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23137
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 印度1
-  port: 45074
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23144
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 印度2
-  port: 45073
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23145
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 台湾1
-  port: 45078
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 印尼1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23138
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 台湾2
-  port: 45077
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 印尼2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23139
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+- name: 台湾01|LELP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23506
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 台湾02|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23507
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 台湾03|LELP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23508
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 台湾04|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23509
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾3
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23103
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾4
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23207
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 土耳其1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23400
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 土耳其2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23121
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 尼日利亚1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23149
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 尼日利亚2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23150
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 德国1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23334
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 德国2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23115
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 意大利1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23142
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 意大利2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23143
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 拉脱维亚1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23151
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 拉脱维亚2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23152
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- name: 新加坡01|LELP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23510
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 新加坡02|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23511
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 新加坡03|LELP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23512
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 新加坡04|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23513
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23106
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23401
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡3
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23107
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡4
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23407
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1
@@ -68,7 +226,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -78,7 +236,60 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- name: 日本01|LELP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23514
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 日本02|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23515
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 日本03|LELP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23617
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 日本04|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23517
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23104
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23105
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本3
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23105
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 日本NO.1
@@ -88,7 +299,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -98,27 +309,35 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 法国1
-  port: 45072
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 波兰1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23140
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 法国2
-  port: 45071
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 波兰2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23141
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+- cipher: chacha20-ietf-poly1305
+  name: 泰国1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23126
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 泰国2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23127
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 泰国NO1
@@ -128,7 +347,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
 - alterId: 0
   cipher: auto
   name: 泰国NO2
@@ -138,7 +357,21 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23124
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23125
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1
@@ -148,7 +381,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2
@@ -158,33 +391,89 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 美国-拉斯维加斯-002
-  network: ws
-  port: 23119
-  server: 185.143.221.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 立陶宛1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23154
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
   udp: true
-  uuid: 403e448c-fc1e-454b-9ac7-de1fec5f82fd
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国-拉斯维加斯-003
-  network: ws
-  port: 25002
-  server: 185.143.221.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 立陶宛2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23153
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
   udp: true
-  uuid: 403e448c-fc1e-454b-9ac7-de1fec5f82fd
-  ws-opts:
-    path: /
+- name: 续费搜
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23501
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 美国01|LEPL|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23524
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 美国02|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23519
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 美国03|LEPL|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23523
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 美国04|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23521
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23108
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23109
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国3
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23116
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国4
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23117
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 美国NO.1
@@ -194,7 +483,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
 - alterId: 0
   cipher: auto
   name: 美国NO.2
@@ -204,27 +493,77 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 英国1
-  port: 45066
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23155
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
-- alterId: 0
-  cipher: auto
-  name: 英国2
-  port: 45067
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23256
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+- cipher: chacha20-ietf-poly1305
+  name: 菲律宾1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23134
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 菲律宾2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23203
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 西班牙1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23209
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 西班牙2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23210
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 越南1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23132
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 越南2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23133
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 阿联酋1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23157
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 阿联酋2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23158
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1
@@ -234,7 +573,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2
@@ -244,14 +583,28 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
 - name: 韩国-三网优化2
-  password: 1b1023a6-3b22-4724-ad4c-38f79ebec31d
+  password: 81b65436-3384-4068-9c8e-11008056d669
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
   sni: kr-qingyun.dwyun.me
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23110
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23111
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -262,7 +615,75 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- name: 香港01|LELP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23499
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 香港03|LELP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23502
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 香港04|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23503
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 香港05|LELP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23504
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 香港06|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23505
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港1
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23100
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港2
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23200
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港3
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23300
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港4
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23101
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 香港NO.1
@@ -272,7 +693,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -282,7 +703,23 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- name: 马来西亚01|LEPL|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23525
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
+- name: 马来西亚02|BGP|1X
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23526
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: cn.bing.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO1
@@ -292,7 +729,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO2
@@ -302,4 +739,174 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b84227b0-6fcd-4c1a-837a-5756fd244a29
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- alterId: 0
+  cipher: auto
+  name: 加拿大1-1A
+  port: 45064
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 加拿大1-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23122
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 加拿大2-1A
+  port: 45065
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 加拿大2-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23123
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 印度1-1A
+  port: 45074
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 印度1-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23130
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 印度2-1A
+  port: 45073
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 印度2-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23131
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 台湾1-1A
+  port: 45078
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 台湾1-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23102
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 台湾2-1A
+  port: 45077
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 台湾2-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23208
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 法国1-1A
+  port: 45072
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 法国1-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23118
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 法国2-1A
+  port: 45071
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 法国2-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23119
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 英国1-1A
+  port: 45066
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 英国1-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23112
+  server: 9c2f7e1a3b4d8f06e7a5c3d1b0f29864.1kmei.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 英国2-1A
+  port: 45067
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44b82bf6-56e0-418a-bab9-e4e0ea1f5afe
+- cipher: chacha20-ietf-poly1305
+  name: 英国2-1B
+  password: 7138b872-7029-4361-9048-9488a31be51e
+  port: 23113
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
+  udp: true
