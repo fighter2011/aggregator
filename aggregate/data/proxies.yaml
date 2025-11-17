@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CD-JTH
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  name: CK-XAS
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 57304
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: HK 12小时试用线路 满意在订购
-  password: 7646d5b7-fefa-4288-a09e-f11ca544e0af
+  password: 36c7a80b-5a8a-4815-912e-be437131deef
   port: 31136
   server: qqb12.599789.xyz
   type: ss
@@ -24,25 +24,25 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: b94241e4-5fb3-430c-b01d-4a331247c702
+  uuid: fc75a385-617b-42e5-9439-23188068b2f4
   ws-opts:
     path: /ips30003
 - cipher: aes-256-gcm
   name: KR-IDC-节点1
-  password: b94241e4-5fb3-430c-b01d-4a331247c702
+  password: fc75a385-617b-42e5-9439-23188068b2f4
   port: 30000
   server: 146.56.132.194
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: KR-IDC-节点2
-  password: b94241e4-5fb3-430c-b01d-4a331247c702
+  password: fc75a385-617b-42e5-9439-23188068b2f4
   port: 30001
   server: 146.56.132.194
   type: ss
   udp: true
 - name: PC端如无法使用请点-TUN-视频体验
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 443
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -50,7 +50,7 @@ proxies:
   type: trojan
   udp: true
 - name: 中国联通节点1
-  password: 972193f5-ecc7-479f-a4fe-a68092d627d0
+  password: 82c41193-ad15-4e4a-9b6f-c1ec6f0f7c44
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -58,7 +58,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾 1号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 25501
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -66,7 +66,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 972193f5-ecc7-479f-a4fe-a68092d627d0
+  password: 82c41193-ad15-4e4a-9b6f-c1ec6f0f7c44
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -74,7 +74,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 972193f5-ecc7-479f-a4fe-a68092d627d0
+  password: 82c41193-ad15-4e4a-9b6f-c1ec6f0f7c44
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -82,7 +82,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 972193f5-ecc7-479f-a4fe-a68092d627d0
+  password: 82c41193-ad15-4e4a-9b6f-c1ec6f0f7c44
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -91,7 +91,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 德国 XA区
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 54881
   server: zf-ct.bgblwow.org
   type: ss
@@ -105,7 +105,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 德国-V6|02 0.5X
@@ -115,7 +115,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 德国-V6|03 0.5X
@@ -125,9 +125,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - name: 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 23301
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -135,7 +135,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 1号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 24401
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -143,7 +143,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 2号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 24402
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -151,7 +151,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 3号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 24403
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -167,7 +167,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 日本-V6|04
@@ -177,7 +177,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 日本-V6|05
@@ -187,7 +187,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 日本-V6|06
@@ -197,7 +197,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 日本-V6|07
@@ -207,9 +207,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - name: 日本01
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 11030
   server: greenjp2.yueyun.de
   skip-cert-verify: true
@@ -217,7 +217,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本02
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 13036
   server: vpsjp.yueyun.de
   skip-cert-verify: true
@@ -225,7 +225,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本03
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 10389
   server: cloud.yueyun.de
   skip-cert-verify: true
@@ -233,7 +233,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国 2号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 25502
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -249,7 +249,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 美国-V6|01 2
@@ -259,7 +259,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 美国-拉斯维加斯-001
@@ -270,7 +270,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2bbe5523-c3fc-4d66-b889-2db71e66e5af
+  uuid: 13747227-ec1f-41b1-86f7-24f677fcbfe2
   ws-opts:
     path: /
 - alterId: 0
@@ -283,11 +283,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2bbe5523-c3fc-4d66-b889-2db71e66e5af
+  uuid: 13747227-ec1f-41b1-86f7-24f677fcbfe2
   ws-opts:
     path: /
 - name: 美国01
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 10026
   server: vir732.189.ovh
   skip-cert-verify: true
@@ -295,7 +295,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国02
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 10022
   server: vir11.189.ovh
   skip-cert-verify: true
@@ -303,7 +303,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国04
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 10021
   server: layercloud.189.ovh
   skip-cert-verify: true
@@ -311,7 +311,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国05
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 10027
   server: advin.189.ovh
   skip-cert-verify: true
@@ -319,7 +319,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国07
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 10021
   server: vir694.189.ovh
   skip-cert-verify: true
@@ -327,7 +327,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国高速节点1
-  password: 972193f5-ecc7-479f-a4fe-a68092d627d0
+  password: 82c41193-ad15-4e4a-9b6f-c1ec6f0f7c44
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -343,7 +343,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 荷兰-V6|02 0.5X
@@ -353,7 +353,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 荷兰-V6|03 0.5X
@@ -363,7 +363,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 荷兰-V6|04 0.5X
@@ -373,51 +373,51 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - cipher: chacha20-ietf-poly1305
   name: 试用一小时2G
-  password: 193ae17d-15d5-4b99-909d-0643547a8bd6
+  password: 7aaf1ecd-0ecd-4e4e-b0db-d181974cbfbb
   port: 26535
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 试用线路不支持解锁
-  password: 7646d5b7-fefa-4288-a09e-f11ca544e0af
+  password: 36c7a80b-5a8a-4815-912e-be437131deef
   port: 37781
   server: qqb12.599789.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-台湾
-  password: 193ae17d-15d5-4b99-909d-0643547a8bd6
+  password: 7aaf1ecd-0ecd-4e4e-b0db-d181974cbfbb
   port: 27689
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-新加坡
-  password: 193ae17d-15d5-4b99-909d-0643547a8bd6
+  password: 7aaf1ecd-0ecd-4e4e-b0db-d181974cbfbb
   port: 57884
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-日本
-  password: 193ae17d-15d5-4b99-909d-0643547a8bd6
+  password: 7aaf1ecd-0ecd-4e4e-b0db-d181974cbfbb
   port: 29571
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-美国
-  password: 193ae17d-15d5-4b99-909d-0643547a8bd6
+  password: 7aaf1ecd-0ecd-4e4e-b0db-d181974cbfbb
   port: 47831
   server: jry.izenny.com
   type: ss
   udp: true
 - name: 香港 1号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 21101
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -425,7 +425,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 2号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 21102
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -433,7 +433,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 3号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 21103
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -441,7 +441,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 4号线 NETFLIX等流媒体解锁 解锁
-  password: 06d3bc60-a404-4c21-8aee-6aee0f0b82d1
+  password: bb421bb1-7327-44c1-9d76-334409647387
   port: 21104
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -449,7 +449,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港-V4|02
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 30026
   server: hkvm4.656888.xyz
   skip-cert-verify: true
@@ -465,7 +465,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 香港-V6|06
@@ -475,7 +475,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 香港-V6|07
@@ -485,7 +485,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - alterId: 0
   cipher: auto
   name: 香港-V6|08
@@ -495,9 +495,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  uuid: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
 - name: 香港03
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 10022
   server: hytro.91ai.de
   skip-cert-verify: true
@@ -505,7 +505,7 @@ proxies:
   type: trojan
   udp: true
 - name: 0.5X-1A
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 10027
   server: nara.189.ovh
   skip-cert-verify: true
@@ -513,7 +513,7 @@ proxies:
   type: trojan
   udp: true
 - name: 0.5X-1B
-  password: 3e860fdf-6731-4424-b9a9-4b26008a9109
+  password: 9d49e01e-88f9-4d0d-90ab-1f64f4fc1796
   port: 10027
   server: netcp4.616626.xyz
   skip-cert-verify: true
@@ -522,406 +522,406 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 中转美国1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 40063
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 中转美国1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 40063
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 以色列 1X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 30348
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 以色列 1X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 30348
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 冰岛 1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 32009
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 冰岛 1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 32009
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 印度 1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 17254
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 印度 1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 17254
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾解锁 1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 14187
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾解锁 1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 14187
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 土耳其 1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 54693
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 土耳其 1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 54693
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 墨西哥 1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 48907
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 墨西哥 1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 48907
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 巴西 1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 57577
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 巴西 1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 57577
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 德国 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 51577
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 德国 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 58056
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 新加坡解锁 1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 36199
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 新加坡解锁 1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 36199
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 53387
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 53387
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 泰国 1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 28675
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 泰国 1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 28675
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 过滤掉3条线路-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 55407
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 过滤掉3条线路-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 55407
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 1 X1-1A
-  password: 077b0469-50f2-42c3-8769-4a1101b078c8
+  password: e017885a-3230-4052-8c68-bad829f6c26d
   port: 43295
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 1 X1-1B
-  password: 802e1380-25b2-44f5-a3cc-6cf7836482c2
+  password: 28cdc360-8df6-472e-a32a-d40c82991d1c
   port: 43295
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 印度 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 59069
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 印度 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 50369
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 印度 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 54274
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 59345
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 56963
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 57989
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 巴西 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 59469
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 巴西 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 57609
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 巴西 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 53131
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 新加坡 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 50412
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 新加坡 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 55375
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 新加坡 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 59384
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 52707
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 59719
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 55439
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 法国 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 59720
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 法国 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 50748
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 法国 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 59741
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 美国 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 58850
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 美国 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 57572
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 美国 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 50984
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 越南 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 52384
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 越南 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 55774
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 越南 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 58537
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 57459
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 55064
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 55782
   server: zf-cm.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港 X A区-1A
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 58911
   server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港 X A区-1B
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 53754
   server: zf-cu.bgblwow.org
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港 X A区-1C
-  password: 7dd872d3-e101-493b-84ac-8f2c023b04c8
+  password: bfdd65d4-974c-4cbc-9d91-b5842838c98f
   port: 59543
   server: zf-cm.bgblwow.org
   type: ss
@@ -935,7 +935,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 加拿大1-1B
@@ -945,7 +945,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 加拿大1-1C
@@ -955,7 +955,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 加拿大1-1D
@@ -965,7 +965,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 加拿大1-1E
@@ -975,7 +975,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 加拿大2-1A
@@ -985,7 +985,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 加拿大2-1B
@@ -995,7 +995,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 加拿大2-1C
@@ -1005,7 +1005,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 加拿大2-1D
@@ -1015,7 +1015,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 加拿大2-1E
@@ -1025,7 +1025,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 印度1-1A
@@ -1035,7 +1035,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 印度1-1B
@@ -1045,7 +1045,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 印度1-1C
@@ -1055,7 +1055,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 印度1-1D
@@ -1065,7 +1065,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 印度1-1E
@@ -1075,7 +1075,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 印度2-1A
@@ -1085,7 +1085,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 印度2-1B
@@ -1095,7 +1095,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 印度2-1C
@@ -1105,7 +1105,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 印度2-1D
@@ -1115,7 +1115,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 印度2-1E
@@ -1125,7 +1125,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 台湾1-1A
@@ -1135,7 +1135,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 台湾1-1B
@@ -1145,7 +1145,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 台湾1-1C
@@ -1155,7 +1155,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 台湾1-1D
@@ -1165,7 +1165,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 台湾1-1E
@@ -1175,7 +1175,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 台湾2-1A
@@ -1185,7 +1185,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 台湾2-1B
@@ -1195,7 +1195,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 台湾2-1C
@@ -1205,7 +1205,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 台湾2-1D
@@ -1215,7 +1215,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 台湾2-1E
@@ -1225,7 +1225,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1-1A
@@ -1235,7 +1235,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1-1B
@@ -1245,7 +1245,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1-1C
@@ -1255,7 +1255,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1-1D
@@ -1265,7 +1265,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1-1E
@@ -1275,7 +1275,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2-1A
@@ -1285,7 +1285,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2-1B
@@ -1295,7 +1295,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2-1C
@@ -1305,7 +1305,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2-1D
@@ -1315,7 +1315,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2-1E
@@ -1325,7 +1325,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 日本NO.1-1A
@@ -1335,7 +1335,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 日本NO.1-1B
@@ -1345,7 +1345,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 日本NO.1-1C
@@ -1355,7 +1355,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 日本NO.1-1D
@@ -1365,7 +1365,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 日本NO.1-1E
@@ -1375,7 +1375,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 日本NO.2-1A
@@ -1385,7 +1385,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 日本NO.2-1B
@@ -1395,7 +1395,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 日本NO.2-1C
@@ -1405,7 +1405,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 日本NO.2-1D
@@ -1415,7 +1415,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 日本NO.2-1E
@@ -1425,7 +1425,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 法国1-1A
@@ -1435,7 +1435,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 法国1-1B
@@ -1445,7 +1445,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 法国1-1C
@@ -1455,7 +1455,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 法国1-1D
@@ -1465,7 +1465,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 法国1-1E
@@ -1475,7 +1475,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 法国2-1A
@@ -1485,7 +1485,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 法国2-1B
@@ -1495,7 +1495,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 法国2-1C
@@ -1505,7 +1505,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 法国2-1D
@@ -1515,7 +1515,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 法国2-1E
@@ -1525,7 +1525,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1-1A
@@ -1535,7 +1535,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1-1B
@@ -1545,7 +1545,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1-1C
@@ -1555,7 +1555,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1-1D
@@ -1565,7 +1565,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1-1E
@@ -1575,7 +1575,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2-1A
@@ -1585,7 +1585,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2-1B
@@ -1595,7 +1595,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2-1C
@@ -1605,7 +1605,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2-1D
@@ -1615,7 +1615,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2-1E
@@ -1625,7 +1625,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 美国NO.1-1A
@@ -1635,7 +1635,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 美国NO.1-1B
@@ -1645,7 +1645,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 美国NO.1-1C
@@ -1655,7 +1655,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 美国NO.1-1D
@@ -1665,7 +1665,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 美国NO.1-1E
@@ -1675,7 +1675,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 美国NO.2-1A
@@ -1685,7 +1685,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 美国NO.2-1B
@@ -1695,7 +1695,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 美国NO.2-1C
@@ -1705,7 +1705,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 美国NO.2-1D
@@ -1715,7 +1715,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 美国NO.2-1E
@@ -1725,7 +1725,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 英国1-1A
@@ -1735,7 +1735,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 英国1-1B
@@ -1745,7 +1745,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 英国1-1C
@@ -1755,7 +1755,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 英国1-1D
@@ -1765,7 +1765,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 英国1-1E
@@ -1775,7 +1775,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 英国2-1A
@@ -1785,7 +1785,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 英国2-1B
@@ -1795,7 +1795,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 英国2-1C
@@ -1805,7 +1805,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 英国2-1D
@@ -1815,7 +1815,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 英国2-1E
@@ -1825,7 +1825,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1-1A
@@ -1835,7 +1835,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1-1B
@@ -1845,7 +1845,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1-1C
@@ -1855,7 +1855,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1-1D
@@ -1865,7 +1865,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1-1E
@@ -1875,7 +1875,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2-1A
@@ -1885,7 +1885,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2-1B
@@ -1895,7 +1895,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2-1C
@@ -1905,7 +1905,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2-1D
@@ -1915,7 +1915,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2-1E
@@ -1925,7 +1925,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 香港NO.1-1A
@@ -1935,7 +1935,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 香港NO.1-1B
@@ -1945,7 +1945,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 香港NO.1-1C
@@ -1955,7 +1955,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 香港NO.1-1D
@@ -1965,7 +1965,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 香港NO.1-1E
@@ -1975,7 +1975,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
 - alterId: 0
   cipher: auto
   name: 香港NO.2-1A
@@ -1985,7 +1985,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8d74dc55-f2dd-4bb9-bcfd-d412851b4b6a
+  uuid: 8219ed8b-e025-4b03-86cc-e13457f1ca2f
 - alterId: 0
   cipher: auto
   name: 香港NO.2-1B
@@ -1995,7 +1995,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9aa48d59-d727-4770-bb64-fe7b6ef5fd40
+  uuid: 537ec56b-b95d-4821-a090-a158824d3c2b
 - alterId: 0
   cipher: auto
   name: 香港NO.2-1C
@@ -2005,7 +2005,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2270c70a-d4af-4345-8d23-a1b2f5694c8d
+  uuid: 7a6f744a-9eee-43a8-b776-2920c66f5311
 - alterId: 0
   cipher: auto
   name: 香港NO.2-1D
@@ -2015,7 +2015,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5927a5a4-002e-42be-aac1-df49a7a5a166
+  uuid: 412ed7b2-4588-4b02-be59-9bf1c1b18ffe
 - alterId: 0
   cipher: auto
   name: 香港NO.2-1E
@@ -2025,4 +2025,4 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1e378bbc-bfe5-478c-852c-64588e20bafc
+  uuid: b5db53a7-cc86-4aa2-8897-4c8b7c7aac66
