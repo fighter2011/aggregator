@@ -1,27 +1,80 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CA-IXD
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 57304
-  server: zf-cm.bgblwow.org
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: HK 12小时试用线路 满意在订购
-  password: 804f736b-5848-4470-8301-66f30f3736f0
-  port: 31136
-  server: aq.1333999.xyz
+  name: HUOJIAN2
+  password: 1b44e504-1b9c-4e51-bfc7-aeb85182d284
+  port: 51004
+  server: huojian2.vn9987.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: PC端如无法使用请点-TUN-视频体验
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 28888
-  server: 120.241.40.34
+  name: HUOJIAN3-G口
+  password: 1b44e504-1b9c-4e51-bfc7-aeb85182d284
+  port: 51004
+  server: huojian3.vn9987.top
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: JP-IDC-NODE1
+  network: ws
+  port: 30003
+  server: 146.56.132.194
+  servername: net.iftballs.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e077727a-893c-433a-8654-bfb5e5c48ac8
+  ws-opts:
+    path: /ips30003
+- cipher: aes-256-gcm
+  name: KR-IDC-节点1
+  password: e077727a-893c-433a-8654-bfb5e5c48ac8
+  port: 30000
+  server: 146.56.132.194
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: KR-IDC-节点2
+  password: e077727a-893c-433a-8654-bfb5e5c48ac8
+  port: 30001
+  server: 146.56.132.194
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US
+  network: ws
+  port: 51002
+  server: vmess2.vn9987.top
+  servername: vmess2.vn9987.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1b44e504-1b9c-4e51-bfc7-aeb85182d284
+  ws-opts:
+    headers:
+      Host: vmess2.vn9987.top
+    path: /bbbb
+- alterId: 0
+  cipher: auto
+  name: US-G口
+  network: ws
+  port: 51002
+  server: vmess3.vn9987.top
+  servername: vmess3.vn9987.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1b44e504-1b9c-4e51-bfc7-aeb85182d284
+  ws-opts:
+    headers:
+      Host: vmess3.vn9987.top
+    path: /bbbb
 - name: 中国联通节点1
-  password: 148101dc-d4c8-4f3e-a787-37112ff0db95
+  password: 59c9162b-6300-45e5-9ce8-03ca0707f2c2
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -30,49 +83,41 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 中转美国1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 40063
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 以色列 1X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 30348
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 冰岛 1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 32009
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 印度 1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 17254
   server: slur.izenny.com
   type: ss
   udp: true
-- name: 台湾 1号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 32201
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾解锁 1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 14187
   server: slur.izenny.com
   type: ss
   udp: true
 - name: 台湾高速节点
-  password: 148101dc-d4c8-4f3e-a787-37112ff0db95
+  password: 59c9162b-6300-45e5-9ce8-03ca0707f2c2
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -80,7 +125,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 148101dc-d4c8-4f3e-a787-37112ff0db95
+  password: 59c9162b-6300-45e5-9ce8-03ca0707f2c2
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -88,7 +133,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 148101dc-d4c8-4f3e-a787-37112ff0db95
+  password: 59c9162b-6300-45e5-9ce8-03ca0707f2c2
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -97,30 +142,23 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 土耳其 1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 54693
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 墨西哥 1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 48907
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 巴西 1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 57577
   server: slur.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国 XA区
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 54881
-  server: zf-ct.bgblwow.org
   type: ss
   udp: true
 - alterId: 0
@@ -132,7 +170,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 德国-V6|02 0.5X
@@ -142,7 +180,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 德国-V6|03 0.5X
@@ -152,45 +190,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
-- name: 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 33301
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - cipher: chacha20-ietf-poly1305
   name: 新加坡解锁 1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 36199
   server: slur.izenny.com
   type: ss
-  udp: true
-- name: 日本 1号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 34401
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: 日本 2号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 34402
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: 日本 3号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 34403
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -201,7 +207,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 日本-V6|04
@@ -211,7 +217,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 日本-V6|05
@@ -221,7 +227,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 日本-V6|06
@@ -231,7 +237,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 日本-V6|07
@@ -241,9 +247,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - name: 日本01
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 11030
   server: greenjp2.yueyun.de
   skip-cert-verify: true
@@ -251,7 +257,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本02
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 13036
   server: vpsjp.yueyun.de
   skip-cert-verify: true
@@ -259,7 +265,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本03
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 10389
   server: cloud.yueyun.de
   skip-cert-verify: true
@@ -268,33 +274,17 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 53387
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 泰国 1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 28675
   server: slur.izenny.com
   type: ss
-  udp: true
-- name: 美国 1号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: 美国 2号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 35502
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -305,7 +295,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 美国-V6|01 2
@@ -315,35 +305,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
-- alterId: 0
-  cipher: auto
-  name: 美国-拉斯维加斯-001
-  network: ws
-  port: 23188
-  server: 91.149.236.68
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 495a89e2-40bb-4780-b2a5-5f68d6aa04b4
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国-纽约-001
-  network: ws
-  port: 22130
-  server: 91.149.236.68
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 495a89e2-40bb-4780-b2a5-5f68d6aa04b4
-  ws-opts:
-    path: /
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - name: 美国01
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 10026
   server: vir732.189.ovh
   skip-cert-verify: true
@@ -351,7 +315,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国02
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 10022
   server: vir11.189.ovh
   skip-cert-verify: true
@@ -359,7 +323,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国04
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 10021
   server: layercloud.189.ovh
   skip-cert-verify: true
@@ -367,7 +331,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国05
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 10027
   server: advin.189.ovh
   skip-cert-verify: true
@@ -375,7 +339,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国07
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 10021
   server: vir694.189.ovh
   skip-cert-verify: true
@@ -383,7 +347,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国高速节点1
-  password: 148101dc-d4c8-4f3e-a787-37112ff0db95
+  password: 59c9162b-6300-45e5-9ce8-03ca0707f2c2
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -399,7 +363,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 荷兰-V6|02 0.5X
@@ -409,7 +373,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 荷兰-V6|03 0.5X
@@ -419,7 +383,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 荷兰-V6|04 0.5X
@@ -429,97 +393,23 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
-- cipher: chacha20-ietf-poly1305
-  name: 试用一小时2G
-  password: 75bbcb7d-86a6-450f-949b-918ef1145a87
-  port: 26535
-  server: jry.izenny.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 试用线路不支持解锁
-  password: 804f736b-5848-4470-8301-66f30f3736f0
-  port: 37781
-  server: aq.1333999.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 试用节点-台湾
-  password: 75bbcb7d-86a6-450f-949b-918ef1145a87
-  port: 27689
-  server: jry.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 试用节点-新加坡
-  password: 75bbcb7d-86a6-450f-949b-918ef1145a87
-  port: 57884
-  server: jry.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 试用节点-日本
-  password: 75bbcb7d-86a6-450f-949b-918ef1145a87
-  port: 29571
-  server: jry.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 试用节点-美国
-  password: 75bbcb7d-86a6-450f-949b-918ef1145a87
-  port: 47831
-  server: jry.izenny.com
-  type: ss
-  udp: true
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - cipher: chacha20-ietf-poly1305
   name: 过滤掉3条线路
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 55407
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 1 X1
-  password: 4c5364da-b1c9-4f7a-a466-08bec4ae3b24
+  password: 85f88d09-3f9b-46fc-8be2-b0f8e9ea0caa
   port: 43295
   server: slur.izenny.com
   type: ss
   udp: true
-- name: 香港 1号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: 香港 2号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: 香港 3号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: 香港 4号线 NETFLIX等流媒体解锁 解锁
-  password: 97864630-5f96-439d-97c5-918dbbfe3a5a
-  port: 31104
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
 - name: 香港-V4|02
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 30026
   server: hkvm4.656888.xyz
   skip-cert-verify: true
@@ -535,7 +425,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 香港-V6|06
@@ -545,7 +435,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 香港-V6|07
@@ -555,7 +445,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - alterId: 0
   cipher: auto
   name: 香港-V6|08
@@ -565,9 +455,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  uuid: c7172805-1b1a-4217-aedc-a32f95bc8cac
 - name: 香港03
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 10022
   server: hytro.91ai.de
   skip-cert-verify: true
@@ -575,7 +465,7 @@ proxies:
   type: trojan
   udp: true
 - name: 0.5X-1A
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 10027
   server: nara.189.ovh
   skip-cert-verify: true
@@ -583,7 +473,7 @@ proxies:
   type: trojan
   udp: true
 - name: 0.5X-1B
-  password: 32b31c09-aa83-4d38-8f4c-40db564d5709
+  password: c7172805-1b1a-4217-aedc-a32f95bc8cac
   port: 10027
   server: netcp4.616626.xyz
   skip-cert-verify: true
@@ -591,1326 +481,341 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 德国 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 51577
-  server: zf-cu.bgblwow.org
+  name: PC端如无法使用请点-TUN-视频体验-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 28888
+  server: 120.241.40.34
+  type: ss
+  udp: true
+- name: PC端如无法使用请点-TUN-视频体验-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 443
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 32211
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- name: 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 22211
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 33301
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- name: 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 23301
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 34411
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- name: 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 24411
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 34412
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- name: 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 24412
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 34413
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- name: 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 24413
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- name: 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 25501
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 35502
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- name: 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 25502
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 试用一小时2G-1A
+  password: 97d59a28-d98b-440a-99e1-2d25c0e80a2c
+  port: 26535
+  server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 德国 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 58056
-  server: zf-cm.bgblwow.org
+  name: 试用一小时2G-1B
+  password: c09309c5-49ac-4b9b-8394-0d8ba1d54745
+  port: 26535
+  server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 印度 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 59069
-  server: zf-ct.bgblwow.org
+  name: 试用节点-台湾-1A
+  password: 97d59a28-d98b-440a-99e1-2d25c0e80a2c
+  port: 27689
+  server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 印度 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 50369
-  server: zf-cu.bgblwow.org
+  name: 试用节点-台湾-1B
+  password: c09309c5-49ac-4b9b-8394-0d8ba1d54745
+  port: 27689
+  server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 印度 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 54274
-  server: zf-cm.bgblwow.org
+  name: 试用节点-新加坡-1A
+  password: 97d59a28-d98b-440a-99e1-2d25c0e80a2c
+  port: 57884
+  server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 台湾 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 59345
-  server: zf-ct.bgblwow.org
+  name: 试用节点-新加坡-1B
+  password: c09309c5-49ac-4b9b-8394-0d8ba1d54745
+  port: 57884
+  server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 台湾 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 56963
-  server: zf-cu.bgblwow.org
+  name: 试用节点-日本-1A
+  password: 97d59a28-d98b-440a-99e1-2d25c0e80a2c
+  port: 29571
+  server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 台湾 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 57989
-  server: zf-cm.bgblwow.org
+  name: 试用节点-日本-1B
+  password: c09309c5-49ac-4b9b-8394-0d8ba1d54745
+  port: 29571
+  server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 巴西 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 59469
-  server: zf-ct.bgblwow.org
+  name: 试用节点-美国-1A
+  password: 97d59a28-d98b-440a-99e1-2d25c0e80a2c
+  port: 47831
+  server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 巴西 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 57609
-  server: zf-cu.bgblwow.org
+  name: 试用节点-美国-1B
+  password: c09309c5-49ac-4b9b-8394-0d8ba1d54745
+  port: 47831
+  server: jry.izenny.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 巴西 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 53131
-  server: zf-cm.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 50412
-  server: zf-ct.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 55375
-  server: zf-cu.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 59384
-  server: zf-cm.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 52707
-  server: zf-ct.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 59719
-  server: zf-cu.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 55439
-  server: zf-cm.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 法国 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 59720
-  server: zf-ct.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 法国 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 50748
-  server: zf-cu.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 法国 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 59741
-  server: zf-cm.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 58850
-  server: zf-ct.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 57572
-  server: zf-cu.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 50984
-  server: zf-cm.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 越南 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 52384
-  server: zf-ct.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 越南 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 55774
-  server: zf-cu.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 越南 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 58537
-  server: zf-cm.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 57459
-  server: zf-ct.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 55064
-  server: zf-cu.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 55782
-  server: zf-cm.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港 X A区-1A
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 58911
-  server: zf-ct.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港 X A区-1B
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 53754
-  server: zf-cu.bgblwow.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港 X A区-1C
-  password: da390457-80e8-4cfe-9246-3922027be429
-  port: 59543
-  server: zf-cm.bgblwow.org
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 加拿大1-1A
-  port: 45064
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 加拿大1-1B
-  port: 45064
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 加拿大1-1C
-  port: 45064
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 加拿大1-1D
-  port: 45064
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 加拿大1-1E
-  port: 45064
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 加拿大2-1A
-  port: 45065
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 加拿大2-1B
-  port: 45065
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 加拿大2-1C
-  port: 45065
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 加拿大2-1D
-  port: 45065
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 加拿大2-1E
-  port: 45065
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 印度1-1A
-  port: 45074
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 印度1-1B
-  port: 45074
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 印度1-1C
-  port: 45074
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 印度1-1D
-  port: 45074
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 印度1-1E
-  port: 45074
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 印度2-1A
-  port: 45073
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 印度2-1B
-  port: 45073
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 印度2-1C
-  port: 45073
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 印度2-1D
-  port: 45073
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 印度2-1E
-  port: 45073
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 台湾1-1A
-  port: 45078
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 台湾1-1B
-  port: 45078
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 台湾1-1C
-  port: 45078
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 台湾1-1D
-  port: 45078
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 台湾1-1E
-  port: 45078
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 台湾2-1A
-  port: 45077
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 台湾2-1B
-  port: 45077
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 台湾2-1C
-  port: 45077
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 台湾2-1D
-  port: 45077
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 台湾2-1E
-  port: 45077
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.1-1A
-  port: 45054
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.1-1B
-  port: 45054
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.1-1C
-  port: 45054
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.1-1D
-  port: 45054
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.1-1E
-  port: 45054
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.2-1A
-  port: 45055
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.2-1B
-  port: 45055
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.2-1C
-  port: 45055
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.2-1D
-  port: 45055
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.2-1E
-  port: 45055
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 日本NO.1-1A
-  port: 45056
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 日本NO.1-1B
-  port: 45056
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 日本NO.1-1C
-  port: 45056
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 日本NO.1-1D
-  port: 45056
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 日本NO.1-1E
-  port: 45056
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 日本NO.2-1A
-  port: 45057
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 日本NO.2-1B
-  port: 45057
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 日本NO.2-1C
-  port: 45057
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 日本NO.2-1D
-  port: 45057
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 日本NO.2-1E
-  port: 45057
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 法国1-1A
-  port: 45072
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 法国1-1B
-  port: 45072
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 法国1-1C
-  port: 45072
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 法国1-1D
-  port: 45072
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 法国1-1E
-  port: 45072
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 法国2-1A
-  port: 45071
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 法国2-1B
-  port: 45071
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 法国2-1C
-  port: 45071
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 法国2-1D
-  port: 45071
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 法国2-1E
-  port: 45071
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生1-1A
-  port: 45062
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生1-1B
-  port: 45062
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生1-1C
-  port: 45062
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生1-1D
-  port: 45062
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生1-1E
-  port: 45062
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生2-1A
-  port: 45063
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生2-1B
-  port: 45063
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生2-1C
-  port: 45063
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生2-1D
-  port: 45063
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚原生2-1E
-  port: 45063
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 美国NO.1-1A
-  port: 45052
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 美国NO.1-1B
-  port: 45052
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 美国NO.1-1C
-  port: 45052
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 美国NO.1-1D
-  port: 45052
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 美国NO.1-1E
-  port: 45052
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 美国NO.2-1A
-  port: 45053
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 美国NO.2-1B
-  port: 45053
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 美国NO.2-1C
-  port: 45053
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 美国NO.2-1D
-  port: 45053
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 美国NO.2-1E
-  port: 45053
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 英国1-1A
-  port: 45066
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 英国1-1B
-  port: 45066
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 英国1-1C
-  port: 45066
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 英国1-1D
-  port: 45066
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 英国1-1E
-  port: 45066
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 英国2-1A
-  port: 45067
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 英国2-1B
-  port: 45067
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 英国2-1C
-  port: 45067
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 英国2-1D
-  port: 45067
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 英国2-1E
-  port: 45067
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO1-1A
-  port: 45076
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO1-1B
-  port: 45076
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO1-1C
-  port: 45076
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO1-1D
-  port: 45076
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO1-1E
-  port: 45076
-  server: hxa.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO2-1A
-  port: 45075
-  server: hxb.dashuai.help
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO2-1B
-  port: 45075
-  server: hxb.dashuai.help
+- name: 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 31101
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: green2.cdntencentmusic.com
+  type: trojan
   udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO2-1C
-  port: 45075
-  server: hxb.dashuai.help
+- name: 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 21101
+  server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
   udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO2-1D
-  port: 45075
-  server: hxb.dashuai.help
+- name: 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 31102
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: green2.cdntencentmusic.com
+  type: trojan
   udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
-- alterId: 0
-  cipher: auto
-  name: 韩国 专线NO2-1E
-  port: 45075
-  server: hxb.dashuai.help
+- name: 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 21102
+  server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
   udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
-- alterId: 0
-  cipher: auto
-  name: 香港NO.1-1A
-  port: 45050
-  server: hxa.dashuai.help
+- name: 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 31103
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: green2.cdntencentmusic.com
+  type: trojan
   udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
-- alterId: 0
-  cipher: auto
-  name: 香港NO.1-1B
-  port: 45050
-  server: hxa.dashuai.help
+- name: 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 21103
+  server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
   udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
-- alterId: 0
-  cipher: auto
-  name: 香港NO.1-1C
-  port: 45050
-  server: hxa.dashuai.help
+- name: 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+  password: b1efa9b9-0243-4e95-adb6-075199505bcd
+  port: 31104
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: green2.cdntencentmusic.com
+  type: trojan
   udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
-- alterId: 0
-  cipher: auto
-  name: 香港NO.1-1D
-  port: 45050
-  server: hxa.dashuai.help
+- name: 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+  password: 04387d97-73e1-4f17-afcc-69e2a4400241
+  port: 21104
+  server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
   udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
 - alterId: 0
   cipher: auto
-  name: 香港NO.1-1E
-  port: 45050
-  server: hxa.dashuai.help
+  name: 免费节点目前仅有HYSTERIA2协议 请使用最新版客户端-1A
+  network: ws
+  port: 23188
+  server: 91.149.236.68
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
+  uuid: e23def1c-931f-49a0-bd86-1bab2a3181c3
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 香港NO.2-1A
-  port: 45051
-  server: hxb.dashuai.help
+  name: 免费节点目前仅有HYSTERIA2协议 请使用最新版客户端-1B
+  network: ws
+  port: 23188
+  server: 91.149.236.68
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 2bc3e442-56a8-4ab3-92b3-693058bb6999
+  uuid: 2aacedb6-8680-41c5-b10c-dbd3bb65d46e
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 香港NO.2-1B
-  port: 45051
-  server: hxb.dashuai.help
+  name: 免费节点目前仅有HYSTERIA2协议 请使用最新版客户端-1C
+  network: ws
+  port: 23188
+  server: 91.149.236.68
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: bdccd548-4e14-4d84-ae4c-2b5f7c4b043a
+  uuid: 74bc2ac4-1b26-4978-91b1-a6e495e758c3
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 香港NO.2-1C
-  port: 45051
-  server: hxb.dashuai.help
+  name: 过滤掉2条线路-1A
+  network: ws
+  port: 26125
+  server: 91.149.236.68
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 7651069a-674f-4601-b352-b306e61400b8
+  uuid: e23def1c-931f-49a0-bd86-1bab2a3181c3
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 香港NO.2-1D
-  port: 45051
-  server: hxb.dashuai.help
+  name: 过滤掉2条线路-1B
+  network: ws
+  port: 26125
+  server: 91.149.236.68
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: c5816517-2501-4472-8aca-0a9d40c9329a
+  uuid: 2aacedb6-8680-41c5-b10c-dbd3bb65d46e
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 香港NO.2-1E
-  port: 45051
-  server: hxb.dashuai.help
+  name: 过滤掉2条线路-1C
+  network: ws
+  port: 26125
+  server: 91.149.236.68
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 0f26f8fb-b8eb-4197-80da-a373e14b67fc
+  uuid: 74bc2ac4-1b26-4978-91b1-a6e495e758c3
+  ws-opts:
+    path: /
