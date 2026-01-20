@@ -1,14 +1,29 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: G I C A B N H T H N
+  network: ws
+  port: 80
+  server: expired.example.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d5085b30-0b58-46f2-b1f2-492872f5718f
+  ws-opts:
+    headers:
+      Host: expired.example.com
+    path: /expired
 - cipher: chacha20-ietf-poly1305
   name: HUOJIAN2
-  password: dff4b523-29b3-4cb2-ae66-bc5456471e35
+  password: e76cc673-b64f-43d2-8f20-f269bc783609
   port: 51004
   server: huojian2.vn9987.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: HUOJIAN3-G口
-  password: dff4b523-29b3-4cb2-ae66-bc5456471e35
+  password: e76cc673-b64f-43d2-8f20-f269bc783609
   port: 51004
   server: huojian3.vn9987.top
   type: ss
@@ -24,19 +39,19 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 279ad099-a838-4005-9dd3-277225b72d02
+  uuid: f4d7c820-6370-46b0-80a8-970548b07268
   ws-opts:
     path: /ips30003
 - cipher: aes-256-gcm
   name: KR-IDC-节点1
-  password: 279ad099-a838-4005-9dd3-277225b72d02
+  password: f4d7c820-6370-46b0-80a8-970548b07268
   port: 30000
   server: 146.56.132.194
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: KR-IDC-节点2
-  password: 279ad099-a838-4005-9dd3-277225b72d02
+  password: f4d7c820-6370-46b0-80a8-970548b07268
   port: 30001
   server: 146.56.132.194
   type: ss
@@ -52,7 +67,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: dff4b523-29b3-4cb2-ae66-bc5456471e35
+  uuid: e76cc673-b64f-43d2-8f20-f269bc783609
   ws-opts:
     headers:
       Host: vmess2.vn9987.top
@@ -68,13 +83,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: dff4b523-29b3-4cb2-ae66-bc5456471e35
+  uuid: e76cc673-b64f-43d2-8f20-f269bc783609
   ws-opts:
     headers:
       Host: vmess3.vn9987.top
     path: /bbbb
 - name: 中国联通节点1
-  password: 90046171-9fc0-4f9c-9224-95a430a8a377
+  password: 83094973-3f76-4493-9c53-143b13bda838
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -83,244 +98,41 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 中转美国1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 40063
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 丹麦A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35002
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 乌克兰01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35029
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 亚美尼亚A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35217
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 以色列 1X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 30348
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 以色列01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35030
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 伊拉克01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35021
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 俄罗斯01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22037
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 俄罗斯I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40040
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 保加利亚A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35000
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 克罗地亚A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35193
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 冰岛 1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 32009
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 冰岛01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35196
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 列支敦士登 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35216
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 加拿大I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 21195
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 匈牙利01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35026
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 北马其顿01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35200
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 南非01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35036
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 卡塔尔A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35023
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 印度 1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 17254
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 印度 A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 21187
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 印度尼西亚 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22071
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 危地马拉01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35010
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 厄瓜多尔01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35012
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 台湾01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22032
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 台湾02
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22050
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 台湾03
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22052
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40013
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40014
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾C
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40015
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾D
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40016
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾E
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40017
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40012
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾解锁 1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 14187
   server: slur.izenny.com
   type: ss
   udp: true
 - name: 台湾高速节点
-  password: 90046171-9fc0-4f9c-9224-95a430a8a377
+  password: 83094973-3f76-4493-9c53-143b13bda838
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -328,7 +140,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 90046171-9fc0-4f9c-9224-95a430a8a377
+  password: 83094973-3f76-4493-9c53-143b13bda838
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -336,144 +148,32 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 90046171-9fc0-4f9c-9224-95a430a8a377
+  password: 83094973-3f76-4493-9c53-143b13bda838
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
   sni: node3.yuntongclouds.com
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 哈萨克斯坦A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35204
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 哥伦比亚01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35009
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 土耳其 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22016
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 土耳其 1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 54693
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 土耳其 A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 21194
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 埃及01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35007
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 塞尔维亚01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35013
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 塞浦路斯A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35008
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 墨西哥 1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 48907
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 墨西哥A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35028
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 奥地利01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35001
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 尼日利亚01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35035
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 尼泊尔01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35018
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 巴基斯坦01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35003
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 巴林A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35015
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 巴西 1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 57577
   server: slur.izenny.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 巴西 A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22019
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 巴西01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22060
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 希腊01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35020
-  server: ssxsxsjwws.dnsapp.us
   type: ss
   udp: true
 - alterId: 0
@@ -485,7 +185,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 德国-V6|02 0.5X
@@ -495,7 +195,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 德国-V6|03 0.5X
@@ -505,138 +205,12 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-- cipher: aes-256-gcm
-  name: 德国I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22084
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 意大利 A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 21198
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 拉脱维亚A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35197
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 挪威 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22074
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 捷克01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35025
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 摩尔多瓦A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35027
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 摩洛哥01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35022
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 斯洛文尼亚01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35005
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 新加坡01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22051
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 新加坡02
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22087
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 新加坡03
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22072
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 新加坡04
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22059
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40023
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40024
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡C
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40025
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡D
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40026
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40022
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - cipher: chacha20-ietf-poly1305
   name: 新加坡解锁 1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 36199
   server: slur.izenny.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 新西兰
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22075
-  server: ssxsxsjwws.dnsapp.us
   type: ss
   udp: true
 - alterId: 0
@@ -648,7 +222,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 日本-V6|04
@@ -658,7 +232,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 日本-V6|05
@@ -668,7 +242,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 日本-V6|06
@@ -678,7 +252,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 日本-V6|07
@@ -688,201 +262,43 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-- cipher: aes-256-gcm
-  name: 日本04
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40020
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
+- name: 日本01
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
+  port: 11030
+  server: greenjp2.yueyun.de
+  skip-cert-verify: true
+  sni: greenjp2.yueyun.de
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 日本05
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40021
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
+- name: 日本02
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
+  port: 13036
+  server: vpsjp.yueyun.de
+  skip-cert-verify: true
+  sni: vpsjp.yueyun.de
+  type: trojan
+  udp: true
+- name: 日本03
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
+  port: 10389
+  server: cloud.yueyun.de
+  skip-cert-verify: true
+  sni: cloud.yueyun.de
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 53387
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 日本A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22056
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22073
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本C
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22038
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本D
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40018
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本E
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40019
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22044
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本II
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22069
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 智利A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35032
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 柬埔寨01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35019
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 比利时A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35034
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 沙特阿拉伯A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35033
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 法国 I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 21191
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 波兰I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35031
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 波斯尼亚和黑塞哥维那01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35192
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 泰国 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22062
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 泰国 1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 28675
   server: slur.izenny.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 澳大利亚 A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 21188
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 爱尔兰I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 21196
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 爱沙尼亚I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35194
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 瑞典 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22043
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 瑞士01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35037
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 秘鲁01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35011
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 立陶宛01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35004
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 缅甸01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35017
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 罗马尼亚I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35038
-  server: ssxsxsjwws.dnsapp.us
   type: ss
   udp: true
 - alterId: 0
@@ -894,7 +310,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 美国-V6|01 2
@@ -904,16 +320,33 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-- cipher: aes-256-gcm
-  name: 美国03
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22083
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
+- name: 美国01
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
+  port: 10026
+  server: vir732.189.ovh
+  skip-cert-verify: true
+  sni: vir732.189.ovh
+  type: trojan
+  udp: true
+- name: 美国02
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
+  port: 10022
+  server: vir11.189.ovh
+  skip-cert-verify: true
+  sni: vir11.189.ovh
+  type: trojan
+  udp: true
+- name: 美国04
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
+  port: 10021
+  server: layercloud.189.ovh
+  skip-cert-verify: true
+  sni: layercloud.189.ovh
+  type: trojan
   udp: true
 - name: 美国05
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
   port: 10027
   server: advin.189.ovh
   skip-cert-verify: true
@@ -921,104 +354,20 @@ proxies:
   type: trojan
   udp: true
 - name: 美国07
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
   port: 10021
   server: vir694.189.ovh
   skip-cert-verify: true
   sni: vir694.189.ovh
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 美国A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40033
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40034
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国C
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40035
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国D
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40036
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国E
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40037
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40030
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国II
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40031
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国III
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40032
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - name: 美国高速节点1
-  password: 90046171-9fc0-4f9c-9224-95a430a8a377
+  password: 83094973-3f76-4493-9c53-143b13bda838
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 芬兰01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35006
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 英国 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22066
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 英国I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 21193
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 荷兰 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22048
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -1029,7 +378,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 荷兰-V6|02 0.5X
@@ -1039,7 +388,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 荷兰-V6|03 0.5X
@@ -1049,7 +398,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 荷兰-V6|04 0.5X
@@ -1059,128 +408,23 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-- cipher: aes-256-gcm
-  name: 菲律宾 A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22045
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 葡萄牙A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35014
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 西班牙01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35024
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 越南 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22089
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - cipher: chacha20-ietf-poly1305
   name: 过滤掉3条线路
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 55407
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 迪拜 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22041
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 阿尔巴尼亚I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35190
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 阿布扎比A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40041
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 阿曼A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 35016
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 阿根廷A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22053
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 1 X1
-  password: 50dd3df8-16ee-4b01-9d37-8bf1812e6e51
+  password: f7c50c7d-f7a5-4677-b554-138486c026c3
   port: 43295
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 韩国01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22078
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 韩国02
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22047
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 韩国03
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22077
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40028
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40029
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40027
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - name: 香港-V4|02
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
   port: 30026
   server: hkvm4.656888.xyz
   skip-cert-verify: true
@@ -1196,7 +440,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 香港-V6|06
@@ -1206,7 +450,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 香港-V6|07
@@ -1216,7 +460,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
 - alterId: 0
   cipher: auto
   name: 香港-V6|08
@@ -1226,135 +470,17 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-- cipher: aes-256-gcm
-  name: 香港01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22063
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港02
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22064
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港04
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40008
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港05
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40009
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港06
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40010
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港07
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40011
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港A
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22033
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22054
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港C
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40001
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港D
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40002
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港E
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40003
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港F
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40004
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港G
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40005
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港H
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40006
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港I
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22061
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港II
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22090
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港III
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40000
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 马来西亚 01
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22035
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
+  uuid: c75c5386-67dd-49aa-853b-d5f9e2042785
+- name: 香港03
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
+  port: 10022
+  server: hytro.91ai.de
+  skip-cert-verify: true
+  sni: hytro.91ai.de
+  type: trojan
   udp: true
 - name: 0.5X-1A
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
   port: 10027
   server: nara.189.ovh
   skip-cert-verify: true
@@ -1362,7 +488,7 @@ proxies:
   type: trojan
   udp: true
 - name: 0.5X-1B
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
+  password: c75c5386-67dd-49aa-853b-d5f9e2042785
   port: 10027
   server: netcp4.616626.xyz
   skip-cert-verify: true
@@ -1371,13 +497,13 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: PC端如无法使用请点-TUN-视频体验-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 28888
   server: 120.241.40.34
   type: ss
   udp: true
 - name: PC端如无法使用请点-TUN-视频体验-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 443
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -1394,7 +520,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b2ad3c05-3efc-4008-b7c3-247ea8a57eea
+  uuid: 2016cbbf-bfc5-458b-9cdb-b7cb25b602f0
   ws-opts:
     path: /
 - alterId: 0
@@ -1407,11 +533,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 87791288-8b87-4fa9-9777-4eecdeddd0e0
+  uuid: 427df122-d328-4dea-a658-7f58902fd7cc
   ws-opts:
     path: /
 - name: 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 32221
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1419,7 +545,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 22221
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -1427,7 +553,7 @@ proxies:
   type: trojan
   udp: true
 - name: 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 33311
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1435,7 +561,7 @@ proxies:
   type: trojan
   udp: true
 - name: 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 23311
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -1443,7 +569,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 34421
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1451,7 +577,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 24421
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -1459,7 +585,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 34422
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1467,7 +593,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 24422
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -1475,7 +601,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 34423
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1483,60 +609,15 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 24423
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
   type: trojan
   udp: true
-- name: 日本01-1A
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-  port: 11030
-  server: greenjp2.yueyun.de
-  skip-cert-verify: true
-  sni: greenjp2.yueyun.de
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本01-1B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22034
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- name: 日本02-1A
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-  port: 13036
-  server: vpsjp.yueyun.de
-  skip-cert-verify: true
-  sni: vpsjp.yueyun.de
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本02-1B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22046
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- name: 日本03-1A
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-  port: 10389
-  server: cloud.yueyun.de
-  skip-cert-verify: true
-  sni: cloud.yueyun.de
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本03-1B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22031
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - name: 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 35501
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1544,7 +625,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 25501
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -1552,7 +633,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 35502
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1560,124 +641,79 @@ proxies:
   type: trojan
   udp: true
 - name: 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 25502
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
   type: trojan
   udp: true
-- name: 美国01-1A
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-  port: 10026
-  server: vir732.189.ovh
-  skip-cert-verify: true
-  sni: vir732.189.ovh
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 美国01-1B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22017
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- name: 美国02-1A
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-  port: 10022
-  server: vir11.189.ovh
-  skip-cert-verify: true
-  sni: vir11.189.ovh
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 美国02-1B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22039
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
-- name: 美国04-1A
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-  port: 10021
-  server: layercloud.189.ovh
-  skip-cert-verify: true
-  sni: layercloud.189.ovh
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 美国04-1B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 22055
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用一小时2G-1A
-  password: bd76e331-bf7a-4007-8a7a-cd530dfa940f
+  password: 5f679a5a-d7ad-47ef-91a5-d509f377b9a4
   port: 26535
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用一小时2G-1B
-  password: e68a7e33-3e38-417b-9168-ced7ae390242
+  password: 60f78a2d-7002-46c1-a3f4-a53cf8829ee3
   port: 26535
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-台湾-1A
-  password: bd76e331-bf7a-4007-8a7a-cd530dfa940f
+  password: 5f679a5a-d7ad-47ef-91a5-d509f377b9a4
   port: 27689
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-台湾-1B
-  password: e68a7e33-3e38-417b-9168-ced7ae390242
+  password: 60f78a2d-7002-46c1-a3f4-a53cf8829ee3
   port: 27689
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-新加坡-1A
-  password: bd76e331-bf7a-4007-8a7a-cd530dfa940f
+  password: 5f679a5a-d7ad-47ef-91a5-d509f377b9a4
   port: 57884
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-新加坡-1B
-  password: e68a7e33-3e38-417b-9168-ced7ae390242
+  password: 60f78a2d-7002-46c1-a3f4-a53cf8829ee3
   port: 57884
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-日本-1A
-  password: bd76e331-bf7a-4007-8a7a-cd530dfa940f
+  password: 5f679a5a-d7ad-47ef-91a5-d509f377b9a4
   port: 29571
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-日本-1B
-  password: e68a7e33-3e38-417b-9168-ced7ae390242
+  password: 60f78a2d-7002-46c1-a3f4-a53cf8829ee3
   port: 29571
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-美国-1A
-  password: bd76e331-bf7a-4007-8a7a-cd530dfa940f
+  password: 5f679a5a-d7ad-47ef-91a5-d509f377b9a4
   port: 47831
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-美国-1B
-  password: e68a7e33-3e38-417b-9168-ced7ae390242
+  password: 60f78a2d-7002-46c1-a3f4-a53cf8829ee3
   port: 47831
   server: jry.izenny.com
   type: ss
@@ -1692,7 +728,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b2ad3c05-3efc-4008-b7c3-247ea8a57eea
+  uuid: 2016cbbf-bfc5-458b-9cdb-b7cb25b602f0
   ws-opts:
     path: /
 - alterId: 0
@@ -1705,11 +741,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 87791288-8b87-4fa9-9777-4eecdeddd0e0
+  uuid: 427df122-d328-4dea-a658-7f58902fd7cc
   ws-opts:
     path: /
 - name: 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 31101
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1717,7 +753,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 21101
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -1725,7 +761,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 31102
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1733,7 +769,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 21102
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -1741,7 +777,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 31103
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1749,7 +785,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 21103
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -1757,7 +793,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-  password: c49cb92a-a3db-46f6-8b0d-84acc19d55bd
+  password: 09531da2-9460-42a0-a467-a09998226de3
   port: 31114
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
@@ -1765,25 +801,10 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-  password: 4417c95f-5d1b-4f74-95c5-b343c6c5d58b
+  password: a07bc982-c795-4c42-b424-58b726d0e905
   port: 21114
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
   type: trojan
-  udp: true
-- name: 香港03-1A
-  password: 8c46a5e9-a3bc-4761-bc67-94c441b183fd
-  port: 10022
-  server: hytro.91ai.de
-  skip-cert-verify: true
-  sni: hytro.91ai.de
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港03-1B
-  password: b3b3d26e-d104-4641-b0d3-e37181187a55
-  port: 40007
-  server: ssxsxsjwws.dnsapp.us
-  type: ss
   udp: true
