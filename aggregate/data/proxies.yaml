@@ -10,25 +10,25 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 14e9cf46-c80d-4c08-943e-f6641ec2a5fe
+  uuid: 7f775c3a-1715-40db-9a0d-62b263db11a9
   ws-opts:
     path: /ips30003
 - cipher: aes-256-gcm
   name: KR-IDC-节点1
-  password: 14e9cf46-c80d-4c08-943e-f6641ec2a5fe
+  password: 7f775c3a-1715-40db-9a0d-62b263db11a9
   port: 30000
   server: 146.56.132.194
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: KR-IDC-节点2
-  password: 14e9cf46-c80d-4c08-943e-f6641ec2a5fe
+  password: 7f775c3a-1715-40db-9a0d-62b263db11a9
   port: 30001
   server: 146.56.132.194
   type: ss
   udp: true
 - name: PC端如无法使用请点-TUN-视频体验
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 443
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -36,7 +36,7 @@ proxies:
   type: trojan
   udp: true
 - name: 中国联通节点1
-  password: 25b8dd5a-2bd2-48d9-aa1b-4b1e21c4dc71
+  password: dcb1ed2c-721e-425c-870d-478230e9944c
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -53,11 +53,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 73f92753-e0fb-4761-b39e-e12151cb900f
+  uuid: 167e9003-f1bd-4776-9bee-57a635671942
   ws-opts:
     path: /
 - name: 台湾 1号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 22231
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -65,7 +65,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 25b8dd5a-2bd2-48d9-aa1b-4b1e21c4dc71
+  password: dcb1ed2c-721e-425c-870d-478230e9944c
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -73,7 +73,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 25b8dd5a-2bd2-48d9-aa1b-4b1e21c4dc71
+  password: dcb1ed2c-721e-425c-870d-478230e9944c
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -81,7 +81,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 25b8dd5a-2bd2-48d9-aa1b-4b1e21c4dc71
+  password: dcb1ed2c-721e-425c-870d-478230e9944c
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -89,7 +89,7 @@ proxies:
   type: trojan
   udp: true
 - name: 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 23311
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -97,7 +97,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 1号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 24421
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -105,7 +105,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 2号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 24422
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -113,7 +113,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 3号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 24423
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -121,7 +121,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国 1号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 25501
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -129,7 +129,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国 2号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 25502
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -137,7 +137,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国高速节点1
-  password: 25b8dd5a-2bd2-48d9-aa1b-4b1e21c4dc71
+  password: dcb1ed2c-721e-425c-870d-478230e9944c
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -146,35 +146,35 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用一小时2G
-  password: fd4e8839-c348-41a4-b2a7-30b16dadb067
+  password: 5bdf9b7f-3826-4bd4-848b-bc904190c400
   port: 26535
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-台湾
-  password: fd4e8839-c348-41a4-b2a7-30b16dadb067
+  password: 5bdf9b7f-3826-4bd4-848b-bc904190c400
   port: 27689
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-新加坡
-  password: fd4e8839-c348-41a4-b2a7-30b16dadb067
+  password: 5bdf9b7f-3826-4bd4-848b-bc904190c400
   port: 57884
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-日本
-  password: fd4e8839-c348-41a4-b2a7-30b16dadb067
+  password: 5bdf9b7f-3826-4bd4-848b-bc904190c400
   port: 29571
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-美国
-  password: fd4e8839-c348-41a4-b2a7-30b16dadb067
+  password: 5bdf9b7f-3826-4bd4-848b-bc904190c400
   port: 47831
   server: jry.izenny.com
   type: ss
@@ -189,11 +189,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 73f92753-e0fb-4761-b39e-e12151cb900f
+  uuid: 167e9003-f1bd-4776-9bee-57a635671942
   ws-opts:
     path: /
 - name: 香港 1号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 21101
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -201,7 +201,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 2号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 21102
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -209,7 +209,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 3号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 21103
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -217,7 +217,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 4号线 NETFLIX等流媒体解锁 解锁
-  password: a15938d8-f37a-4f7e-9f28-14e5a0869445
+  password: 0b0e90a4-66a9-4509-81fe-49cb6d5fcea0
   port: 21115
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
