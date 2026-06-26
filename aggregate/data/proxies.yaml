@@ -1,42 +1,50 @@
 proxies:
 - name: NODE1-VPN
-  password: 5917324a-99db-42ca-af10-42c30d10960f
+  password: 246aa50b-d5fd-44f6-af73-f9ee04879a6b
   port: 443
   server: node1-vpn.hrzy.me
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: NODE2-VPN
-  password: 5917324a-99db-42ca-af10-42c30d10960f
+  password: 246aa50b-d5fd-44f6-af73-f9ee04879a6b
   port: 443
   server: node2-vpn.hrzy.me
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US-01
-  password: 12c72bb3-cb98-401f-ab31-8e1bfc98bfc6
-  port: 5501
-  server: cloud.bluexray.net
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
-  name: YG-SYN
+  name: YL-WJX
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 2b3560eb-3a62-45f2-9d68-fbfaba0a63ee
+  password: 59e41940-c2e4-4bcf-b830-714645c07b72
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 台湾-V1-2X
+  network: ws
+  port: 443
+  server: vtw1.xxpp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c7dc6b91-29fb-433e-a84b-9f217aa43112
+  ws-opts:
+    headers:
+      Host: vtw1.xxpp.cool
+    path: /assets/js/app
 - name: 台湾高速节点
-  password: 2b3560eb-3a62-45f2-9d68-fbfaba0a63ee
+  password: 59e41940-c2e4-4bcf-b830-714645c07b72
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -44,7 +52,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 2b3560eb-3a62-45f2-9d68-fbfaba0a63ee
+  password: 59e41940-c2e4-4bcf-b830-714645c07b72
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -52,7 +60,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 2b3560eb-3a62-45f2-9d68-fbfaba0a63ee
+  password: 59e41940-c2e4-4bcf-b830-714645c07b72
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -69,7 +77,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 2d4ad1e6-6cff-48ae-8c82-30fe2261e358
+  uuid: 94de086c-0440-47e9-b3ef-5d5c827361ee
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -84,7 +92,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 2d4ad1e6-6cff-48ae-8c82-30fe2261e358
+  uuid: 94de086c-0440-47e9-b3ef-5d5c827361ee
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -99,7 +107,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 2d4ad1e6-6cff-48ae-8c82-30fe2261e358
+  uuid: 94de086c-0440-47e9-b3ef-5d5c827361ee
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -114,16 +122,121 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 2d4ad1e6-6cff-48ae-8c82-30fe2261e358
+  uuid: 94de086c-0440-47e9-b3ef-5d5c827361ee
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡-V1
+  network: ws
+  port: 443
+  server: dy4sg.xpp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c7dc6b91-29fb-433e-a84b-9f217aa43112
+  ws-opts:
+    headers:
+      Host: dy4sg.xpp.cool
+    path: /api/v1/user
+- alterId: 0
+  cipher: auto
+  name: 美国-V1
+  network: ws
+  port: 443
+  server: dy1us1.xpp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c7dc6b91-29fb-433e-a84b-9f217aa43112
+  ws-opts:
+    headers:
+      Host: dy1us1.xpp.cool
+    path: /api/v1/user
+- alterId: 0
+  cipher: auto
+  name: 美国-V2
+  network: ws
+  port: 443
+  server: sh.xpp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c7dc6b91-29fb-433e-a84b-9f217aa43112
+  ws-opts:
+    headers:
+      Host: sh.xpp.cool
+    path: /api/v2/upload
+- alterId: 0
+  cipher: auto
+  name: 美国-V3
+  network: ws
+  port: 443
+  server: dy4max.xpp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c7dc6b91-29fb-433e-a84b-9f217aa43112
+  ws-opts:
+    headers:
+      Host: dy4max.xpp.cool
+    path: /api/v1/user
 - name: 美国高速节点1
-  password: 2b3560eb-3a62-45f2-9d68-fbfaba0a63ee
+  password: 59e41940-c2e4-4bcf-b830-714645c07b72
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 韩国-V1
+  network: ws
+  port: 443
+  server: z5.xpp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c7dc6b91-29fb-433e-a84b-9f217aa43112
+  ws-opts:
+    headers:
+      Host: z5.xpp.cool
+    path: /api/v1/user
+- alterId: 0
+  cipher: auto
+  name: 韩国-V2
+  network: ws
+  port: 443
+  server: dy4kr.xpp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c7dc6b91-29fb-433e-a84b-9f217aa43112
+  ws-opts:
+    headers:
+      Host: dy4kr.xpp.cool
+    path: /api/v1/user
+- alterId: 0
+  cipher: auto
+  name: 香港-V1
+  network: ws
+  port: 443
+  server: z4.xpp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c7dc6b91-29fb-433e-a84b-9f217aa43112
+  ws-opts:
+    headers:
+      Host: z4.xpp.cool
+    path: /content/upload
