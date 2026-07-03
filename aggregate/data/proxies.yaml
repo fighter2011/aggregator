@@ -1,13 +1,81 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: G I C A B N H T H N
+  network: ws
+  port: 80
+  server: expired.example.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3b1e80d2-4fe3-4297-9612-bd9747db4043
+  ws-opts:
+    headers:
+      Host: expired.example.com
+    path: /expired
+- alterId: 0
+  cipher: auto
+  name: JAPAN-01
+  network: ws
+  port: 8443
+  server: 167.179.99.83
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d904266c-d0bb-47be-9cda-137900c07b33
+  ws-opts:
+    path: /ray
+- cipher: aes-256-gcm
+  name: JAPAN-SS
+  password: d904266c-d0bb-47be-9cda-137900c07b33
+  port: 8445
+  server: 167.179.99.83
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SILICONVALLEY-01
+  port: 8444
+  server: 144.202.98.98
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d904266c-d0bb-47be-9cda-137900c07b33
+- alterId: 0
+  cipher: auto
+  name: TTC9999 香港
+  network: ws
+  port: 443
+  server: ww2.ttc9999.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 18433aa8-4948-4617-a1b4-e00f31cb7b71
+  ws-opts:
+    headers:
+      Host: ww2.ttc9999.com
+    path: /v2ray
 - cipher: aes-128-gcm
-  name: Y7-PYI
+  name: YO-PER
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
+- name: YOUR DATA-RSEI-CHED
+  password: d0a94b89-d162-4ac5-a201-4f19f5ee871e
+  port: 443
+  server: empty.node
+  skip-cert-verify: true
+  sni: empty.node
+  type: trojan
+  udp: true
 - name: 中国联通节点1
-  password: 847c1c5d-4c76-4c6a-8e94-4052643be3d8
+  password: 19b7c8df-7ff0-4a8a-8d19-03c94243c616
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -15,7 +83,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 847c1c5d-4c76-4c6a-8e94-4052643be3d8
+  password: 19b7c8df-7ff0-4a8a-8d19-03c94243c616
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -23,7 +91,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 847c1c5d-4c76-4c6a-8e94-4052643be3d8
+  password: 19b7c8df-7ff0-4a8a-8d19-03c94243c616
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -31,7 +99,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 847c1c5d-4c76-4c6a-8e94-4052643be3d8
+  password: 19b7c8df-7ff0-4a8a-8d19-03c94243c616
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -48,7 +116,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: c323b7ac-393b-4459-b03e-2b0c771a1cef
+  uuid: 93a7219f-e645-41b7-9241-f2246bb18b1f
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -63,7 +131,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: c323b7ac-393b-4459-b03e-2b0c771a1cef
+  uuid: 93a7219f-e645-41b7-9241-f2246bb18b1f
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -78,7 +146,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: c323b7ac-393b-4459-b03e-2b0c771a1cef
+  uuid: 93a7219f-e645-41b7-9241-f2246bb18b1f
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -93,13 +161,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: c323b7ac-393b-4459-b03e-2b0c771a1cef
+  uuid: 93a7219f-e645-41b7-9241-f2246bb18b1f
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 美国高速节点1
-  password: 847c1c5d-4c76-4c6a-8e94-4052643be3d8
+  password: 19b7c8df-7ff0-4a8a-8d19-03c94243c616
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
