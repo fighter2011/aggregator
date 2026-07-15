@@ -9,28 +9,93 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8956cea5-1668-4076-8561-61c81964d853
+  uuid: c2af22df-6230-4fa1-a827-b8393720c762
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
+- alterId: 0
+  cipher: auto
+  name: JAPAN-01
+  network: ws
+  port: 8443
+  server: 167.179.99.83
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2549a544-b24b-43b2-a216-efe4dea07b8e
+  ws-opts:
+    path: /ray
+- cipher: aes-256-gcm
+  name: JAPAN-SS
+  password: 2549a544-b24b-43b2-a216-efe4dea07b8e
+  port: 8445
+  server: 167.179.99.83
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SILICONVALLEY-01
+  port: 8444
+  server: 144.202.98.98
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2549a544-b24b-43b2-a216-efe4dea07b8e
 - cipher: aes-128-gcm
-  name: YH-TJB
+  name: Y6-HNJ
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 8f9986ed-aed1-4174-b125-784fdbf6dc9d
+  password: e33bd821-af17-41a2-83ae-0d393a300b6a
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20041
+  server: v1.ru-shadowsocks.internal.ru-shadowsocks-db.api.bk-ru-shadowsocks.node.s1.ru-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 加拿大 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20033
+  server: v1.ca-shadowsocks.internal.ca-shadowsocks-db.api.bk-ca-shadowsocks.node.s1.ca-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 印尼A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20043
+  server: v1.id-shadowsocks.internal.id-shadowsocks-db.api.bk-id-shadowsocks.node.s1.id-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 印度 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20040
+  server: v1.in-shadowsocks.internal.in-shadowsocks-db.api.bk-in-shadowsocks.node.s1.in-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20047
+  server: v1.twa-shadowsocks.internal.twa-shadowsocks-db.api.bk-twa-shadowsocks.node.s1.twa-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
 - name: 台湾高速节点
-  password: 8f9986ed-aed1-4174-b125-784fdbf6dc9d
+  password: e33bd821-af17-41a2-83ae-0d393a300b6a
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -38,7 +103,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 8f9986ed-aed1-4174-b125-784fdbf6dc9d
+  password: e33bd821-af17-41a2-83ae-0d393a300b6a
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -46,12 +111,19 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 8f9986ed-aed1-4174-b125-784fdbf6dc9d
+  password: e33bd821-af17-41a2-83ae-0d393a300b6a
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
   sni: node3.yuntongclouds.com
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 土耳其A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20096
+  server: v1.tua-shadowsocks.internal.tua-shadowsocks-db.api.bk-tua-shadowsocks.node.s1.tua-shadowsocks-master.fastsnaillink.com
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -63,7 +135,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7ba9cc30-5d50-44c6-8f4c-ea34a943b599
+  uuid: dd129ba9-efb5-41ad-9dce-0806908f2feb
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -78,7 +150,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7ba9cc30-5d50-44c6-8f4c-ea34a943b599
+  uuid: dd129ba9-efb5-41ad-9dce-0806908f2feb
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -93,7 +165,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7ba9cc30-5d50-44c6-8f4c-ea34a943b599
+  uuid: dd129ba9-efb5-41ad-9dce-0806908f2feb
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -108,13 +180,83 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7ba9cc30-5d50-44c6-8f4c-ea34a943b599
+  uuid: dd129ba9-efb5-41ad-9dce-0806908f2feb
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20042
+  server: v1.sga-shadowsocks.internal.sga-shadowsocks-db.api.bk-sga-shadowsocks.node.s1.sga-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20098
+  server: v1.jpb-shadowsocks.internal.jpb-shadowsocks-db.api.bk-jpb-shadowsocks.node.s1.jpb-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 法国 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20036
+  server: v1.fr-shadowsocks.internal.fr-shadowsocks-db.api.bk-fr-shadowsocks.node.s1.fr-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 波兰 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20035
+  server: v1.pl-shadowsocks.internal.pl-shadowsocks-db.api.bk-pl-shadowsocks.node.s1.pl-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 泰国 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20046
+  server: v1.tha-shadowsocks.internal.tha-shadowsocks-db.api.bk-tha-shadowsocks.node.s1.tha-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20091
+  server: v1.au-shadowsocks.internal.au-shadowsocks-db.api.bk-au-shadowsocks.node.s1.au-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳门 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20055
+  server: v1.mca-shadowsocks.internal.mca-shadowsocks-db.api.bk-mca-shadowsocks.node.s1.mca-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 瑞士 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20048
+  server: v1.swa-shadowsocks.internal.swa-shadowsocks-db.api.bk-swa-shadowsocks.node.s1.swa-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20045
+  server: v1.usa-shadowsocks.internal.usa-shadowsocks-db.api.bk-usa-shadowsocks.node.s1.usa-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国 B-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20057
+  server: v1.usb-shadowsocks.internal.usb-shadowsocks-db.api.bk-usb-shadowsocks.node.s1.usb-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
 - name: 美国加速器 01
-  password: b120169f-cac2-424f-b291-24c5fd46ec1d
+  password: 765fc1bc-5c06-45c2-98e3-304736a68823
   port: 8443
   server: hk01.wulink.net
   skip-cert-verify: true
@@ -122,12 +264,47 @@ proxies:
   type: trojan
   udp: true
 - name: 美国高速节点1
-  password: 8f9986ed-aed1-4174-b125-784fdbf6dc9d
+  password: e33bd821-af17-41a2-83ae-0d393a300b6a
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 英国 A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20044
+  server: v1.uka-shadowsocks.internal.uka-shadowsocks-db.api.bk-uka-shadowsocks.node.s1.uka-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国B-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20049
+  server: v1.krb-shadowsocks.internal.krb-shadowsocks-db.api.bk-krb-shadowsocks.node.s1.krb-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20037
+  server: v1.hka-shadowsocks.internal.hka-shadowsocks-db.api.bk-hka-shadowsocks.node.s1.hka-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港B-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20039
+  server: v1.hkb-shadowsocks.internal.hkb-shadowsocks-db.api.bk-hkb-shadowsocks.node.s1.hkb-shadowsocks-master.fastsnaillink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 马来西亚A-SS
+  password: 0424e143-bdc0-4b79-a688-faf6bdb9055f
+  port: 20030
+  server: v1.ml-shadowsocks.internal.ml-shadowsocks-db.api.bk-ml-shadowsocks.node.s1.ml-shadowsocks-master.fastsnaillink.com
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -139,7 +316,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bddefe67-a3be-4271-8078-bd05853c8e60
+  uuid: 8ca9642c-0298-4bde-90d6-ead6c9e08873
   ws-opts:
     headers:
       Host: ww2.ttc9999.com
@@ -154,7 +331,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: cc37d92c-0930-4817-8c23-64ee298f9032
+  uuid: 1286db24-b04e-43bb-97c5-62c5bff23444
   ws-opts:
     headers:
       Host: ww2.ttc9999.com
