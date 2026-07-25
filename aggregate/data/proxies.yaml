@@ -9,76 +9,28 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2ad7e5f1-9349-4286-8254-107689addad7
+  uuid: bde24a60-eaf1-4e67-97b3-52fee82d0840
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - cipher: aes-128-gcm
-  name: YT-SKQ
+  name: Y4-QPB
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 中国-01
-  port: 22222
-  server: shenzhen716.node2.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
-- alterId: 0
-  cipher: auto
-  name: 中国-02
-  port: 22222
-  server: shaoxing716.node2.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
-- alterId: 0
-  cipher: auto
-  name: 中国-03
-  port: 22222
-  server: shanghai716.node2.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
-- alterId: 0
-  cipher: auto
-  name: 中国-04
-  port: 22222
-  server: beijing716.node2.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
 - name: 中国联通节点1
-  password: ff0c0698-631c-45c2-abb5-37d3a31b66d6
+  password: 1aebcb1c-c575-4911-b2c3-5ab159beb389
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
-- name: 乌克兰
-  password: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
-  port: 8527
-  server: sie624.node2.top
-  skip-cert-verify: true
-  sni: itunes.apple.com
-  type: trojan
-  udp: true
 - name: 台湾高速节点
-  password: ff0c0698-631c-45c2-abb5-37d3a31b66d6
+  password: 1aebcb1c-c575-4911-b2c3-5ab159beb389
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -86,7 +38,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: ff0c0698-631c-45c2-abb5-37d3a31b66d6
+  password: 1aebcb1c-c575-4911-b2c3-5ab159beb389
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -94,7 +46,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: ff0c0698-631c-45c2-abb5-37d3a31b66d6
+  password: 1aebcb1c-c575-4911-b2c3-5ab159beb389
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -111,7 +63,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: a0b576d8-8a1a-444d-8ee2-bd82a1ae3674
+  uuid: 543cf222-a32e-411e-aeb2-57b9a1ed4f87
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -126,7 +78,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: a0b576d8-8a1a-444d-8ee2-bd82a1ae3674
+  uuid: 543cf222-a32e-411e-aeb2-57b9a1ed4f87
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -141,7 +93,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: a0b576d8-8a1a-444d-8ee2-bd82a1ae3674
+  uuid: 543cf222-a32e-411e-aeb2-57b9a1ed4f87
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -156,56 +108,16 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: a0b576d8-8a1a-444d-8ee2-bd82a1ae3674
+  uuid: 543cf222-a32e-411e-aeb2-57b9a1ed4f87
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
-- name: 新加坡-10
-  password: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
-  port: 10131
-  server: sie721-sg10.node2.top
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-  udp: true
-- name: 日本-10
-  password: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
-  port: 10121
-  server: sie721-jp10.node2.top
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-  udp: true
-- name: 美国-10
-  password: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
-  port: 10151
-  server: sie721-us10.node2.top
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-  udp: true
 - name: 美国高速节点1
-  password: ff0c0698-631c-45c2-abb5-37d3a31b66d6
+  password: 1aebcb1c-c575-4911-b2c3-5ab159beb389
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
-  type: trojan
-  udp: true
-- name: 香港-06
-  password: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
-  port: 9527
-  server: sie624.node2.top
-  skip-cert-verify: true
-  sni: dl.yeagent.com.cn
-  type: trojan
-  udp: true
-- name: 香港-10
-  password: 73cc0734-e2b9-4f4f-98ec-557dc0ad4178
-  port: 10111
-  server: sie721-hk10.node2.top
-  skip-cert-verify: true
-  sni: m.ctrip.com
   type: trojan
   udp: true
