@@ -1,13 +1,28 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: G I C A B N H T H N
+  network: ws
+  port: 80
+  server: expired.example.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6d1f5ed2-2321-4f14-89e0-c35cc1a11128
+  ws-opts:
+    headers:
+      Host: expired.example.com
+    path: /expired
 - cipher: aes-128-gcm
-  name: Y0-KSM
+  name: Y4-BYS
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 74e7e0d4-db1d-4584-ab9c-6ca0ff998b12
+  password: 1e8655e5-a29b-4d37-bef0-ac19eec25b7b
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -15,7 +30,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 74e7e0d4-db1d-4584-ab9c-6ca0ff998b12
+  password: 1e8655e5-a29b-4d37-bef0-ac19eec25b7b
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -23,7 +38,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 74e7e0d4-db1d-4584-ab9c-6ca0ff998b12
+  password: 1e8655e5-a29b-4d37-bef0-ac19eec25b7b
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -31,7 +46,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 74e7e0d4-db1d-4584-ab9c-6ca0ff998b12
+  password: 1e8655e5-a29b-4d37-bef0-ac19eec25b7b
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -48,7 +63,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: e879f234-0583-46b4-bae7-a1c501e0aa62
+  uuid: 1f1c7f66-e801-439e-a68c-08f2ce7eb1a5
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -63,7 +78,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: e879f234-0583-46b4-bae7-a1c501e0aa62
+  uuid: 1f1c7f66-e801-439e-a68c-08f2ce7eb1a5
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -78,7 +93,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: e879f234-0583-46b4-bae7-a1c501e0aa62
+  uuid: 1f1c7f66-e801-439e-a68c-08f2ce7eb1a5
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -93,89 +108,16 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: e879f234-0583-46b4-bae7-a1c501e0aa62
+  uuid: 1f1c7f66-e801-439e-a68c-08f2ce7eb1a5
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 东京A
-  network: ws
-  port: 8080
-  server: 45.192.206.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db2fb9a3-117b-4b73-9889-70e86deea59a
-  ws-opts:
-    headers:
-      Host: images-na.ssl-images-amazon.com
-    path: /image
-- alterId: 0
-  cipher: auto
-  name: 日本 东京B
-  network: ws
-  port: 8080
-  server: 45.192.206.2
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db2fb9a3-117b-4b73-9889-70e86deea59a
-  ws-opts:
-    headers:
-      Host: images-na.ssl-images-amazon.com
-    path: /image
-- alterId: 0
-  cipher: auto
-  name: 美国 加利福尼亚州 洛杉矶
-  network: ws
-  port: 8080
-  server: 185.227.252.204
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db2fb9a3-117b-4b73-9889-70e86deea59a
-  ws-opts:
-    path: /
 - name: 美国高速节点1
-  password: 74e7e0d4-db1d-4584-ab9c-6ca0ff998b12
+  password: 1e8655e5-a29b-4d37-bef0-ac19eec25b7b
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 日本 东京-1A
-  network: ws
-  port: 8080
-  server: 156.231.116.156
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db2fb9a3-117b-4b73-9889-70e86deea59a
-  ws-opts:
-    headers:
-      Host: images-na.ssl-images-amazon.com
-    path: /image
-- alterId: 0
-  cipher: auto
-  name: 日本 东京-1B
-  network: ws
-  port: 8443
-  server: 43.239.249.125
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db2fb9a3-117b-4b73-9889-70e86deea59a
-  ws-opts:
-    headers:
-      Host: images-na.ssl-images-amazon.com
-    path: /image
