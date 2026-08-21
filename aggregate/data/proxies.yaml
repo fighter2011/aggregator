@@ -9,7 +9,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: bd64041f-8172-4262-b632-d96f9bd59b1b
+  uuid: a545321a-bdab-4b7c-987b-21f21d8bf148
   ws-opts:
     headers:
       Host: expired.example.com
@@ -25,28 +25,36 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 0104109a-9f26-403e-8a39-d9e776b7ebd3
+  uuid: 31b4f5fc-ccce-4143-a542-dab8794af6a6
   ws-opts:
     headers:
       Host: m.cqwer.xyz
     path: /b3f8a2c1
 - cipher: aes-128-gcm
-  name: YE-IWB
+  name: Y0-JME
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 66217b40-905a-46c7-9073-fa38d5a30ac6
+  password: 2f8e8cfe-b592-47e0-a9f3-6633b8d2f03d
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
+- name: 乌克兰
+  password: cf12c894-4c84-420a-aa18-4f76013b59cb
+  port: 8527
+  server: sie624.node2.top
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  type: trojan
+  udp: true
 - name: 台湾高速节点
-  password: 66217b40-905a-46c7-9073-fa38d5a30ac6
+  password: 2f8e8cfe-b592-47e0-a9f3-6633b8d2f03d
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -54,7 +62,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 66217b40-905a-46c7-9073-fa38d5a30ac6
+  password: 2f8e8cfe-b592-47e0-a9f3-6633b8d2f03d
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -62,21 +70,71 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 66217b40-905a-46c7-9073-fa38d5a30ac6
+  password: 2f8e8cfe-b592-47e0-a9f3-6633b8d2f03d
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
   sni: node3.yuntongclouds.com
   type: trojan
   udp: true
+- name: 新加坡-10
+  password: cf12c894-4c84-420a-aa18-4f76013b59cb
+  port: 10131
+  server: sie721-sg10.node2.top
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+  udp: true
+- name: 日本-10
+  password: cf12c894-4c84-420a-aa18-4f76013b59cb
+  port: 10121
+  server: sie721-jp10.node2.top
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+  udp: true
+- name: 美国-10
+  password: cf12c894-4c84-420a-aa18-4f76013b59cb
+  port: 10151
+  server: sie721-us10.node2.top
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+  udp: true
 - name: 美国高速节点1
-  password: 66217b40-905a-46c7-9073-fa38d5a30ac6
+  password: 2f8e8cfe-b592-47e0-a9f3-6633b8d2f03d
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
+- name: 香港-06
+  password: cf12c894-4c84-420a-aa18-4f76013b59cb
+  port: 9527
+  server: sie624.node2.top
+  skip-cert-verify: true
+  sni: dl.yeagent.com.cn
+  type: trojan
+  udp: true
+- name: 香港-10
+  password: cf12c894-4c84-420a-aa18-4f76013b59cb
+  port: 10111
+  server: sie721-hk10.node2.top
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 马来西亚 01
+  port: 2083
+  server: 45.127.5.132
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4cdcba3f-35c7-4ea7-800b-399210b470e7
 - alterId: 0
   cipher: auto
   name: 德国-法兰克福-001-1A
@@ -87,7 +145,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 274ae70b-21ad-4e72-8d7e-b18b48011d7c
+  uuid: 7c364fb2-7c44-418d-a35f-b2ee7d0649bf
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -102,7 +160,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 84ba6014-d085-45c1-b271-44bf679bce2b
+  uuid: cc34d059-13bc-4176-8384-723c89425f68
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -117,7 +175,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 274ae70b-21ad-4e72-8d7e-b18b48011d7c
+  uuid: 7c364fb2-7c44-418d-a35f-b2ee7d0649bf
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -132,7 +190,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 84ba6014-d085-45c1-b271-44bf679bce2b
+  uuid: cc34d059-13bc-4176-8384-723c89425f68
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -147,7 +205,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 274ae70b-21ad-4e72-8d7e-b18b48011d7c
+  uuid: 7c364fb2-7c44-418d-a35f-b2ee7d0649bf
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -162,7 +220,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 84ba6014-d085-45c1-b271-44bf679bce2b
+  uuid: cc34d059-13bc-4176-8384-723c89425f68
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -177,7 +235,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 274ae70b-21ad-4e72-8d7e-b18b48011d7c
+  uuid: 7c364fb2-7c44-418d-a35f-b2ee7d0649bf
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
@@ -192,7 +250,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 84ba6014-d085-45c1-b271-44bf679bce2b
+  uuid: cc34d059-13bc-4176-8384-723c89425f68
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
