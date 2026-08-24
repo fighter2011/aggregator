@@ -1,4 +1,25 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: CANADA
+  password: d4c3d598-9ee1-4ca8-8b61-f16704b96b63
+  port: 13345
+  server: 140.238.153.81
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CHILE
+  password: d4c3d598-9ee1-4ca8-8b61-f16704b96b63
+  port: 23345
+  server: 129.151.99.94
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: FRANCE
+  password: d4c3d598-9ee1-4ca8-8b61-f16704b96b63
+  port: 22345
+  server: 141.253.107.174
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: G I C A B N H T H N
@@ -9,20 +30,62 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 91bf4de7-0ebe-4b4a-a7da-757bb06b7324
+  uuid: f071106a-28a8-412c-84d0-c97ab8c527c7
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
+- cipher: chacha20-ietf-poly1305
+  name: HONG KONG
+  password: d4c3d598-9ee1-4ca8-8b61-f16704b96b63
+  port: 12345
+  server: 202.155.141.87
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: KOREA
+  password: d4c3d598-9ee1-4ca8-8b61-f16704b96b63
+  port: 32345
+  server: 134.185.109.166
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SINGAPORE
+  password: d4c3d598-9ee1-4ca8-8b61-f16704b96b63
+  port: 43345
+  server: 140.245.121.101
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SWITZERLAND
+  password: d4c3d598-9ee1-4ca8-8b61-f16704b96b63
+  port: 33345
+  server: 140.238.175.124
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: THE UNITED KINGDOM
+  password: d4c3d598-9ee1-4ca8-8b61-f16704b96b63
+  port: 42345
+  server: 140.238.64.207
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: UNITED STATES
+  password: d4c3d598-9ee1-4ca8-8b61-f16704b96b63
+  port: 52345
+  server: 152.67.250.45
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: YA-BHJ
+  name: Y0-ADZ
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 7dbdf5ea-bb4b-4c41-bfc8-37511dfeebaf
+  password: 6a538da4-be38-465a-9338-e86277d4c74f
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -30,7 +93,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 7dbdf5ea-bb4b-4c41-bfc8-37511dfeebaf
+  password: 6a538da4-be38-465a-9338-e86277d4c74f
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -38,7 +101,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 7dbdf5ea-bb4b-4c41-bfc8-37511dfeebaf
+  password: 6a538da4-be38-465a-9338-e86277d4c74f
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -46,7 +109,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 7dbdf5ea-bb4b-4c41-bfc8-37511dfeebaf
+  password: 6a538da4-be38-465a-9338-e86277d4c74f
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -63,7 +126,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: f1fd1f3f-4c37-40ba-98ec-f9a30a037149
+  uuid: 9c6238e2-8688-4bf0-8072-5d42a8954fcf
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -78,7 +141,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: f1fd1f3f-4c37-40ba-98ec-f9a30a037149
+  uuid: 9c6238e2-8688-4bf0-8072-5d42a8954fcf
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -93,7 +156,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: f1fd1f3f-4c37-40ba-98ec-f9a30a037149
+  uuid: 9c6238e2-8688-4bf0-8072-5d42a8954fcf
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -108,13 +171,21 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: f1fd1f3f-4c37-40ba-98ec-f9a30a037149
+  uuid: 9c6238e2-8688-4bf0-8072-5d42a8954fcf
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
+- name: 美国高速-AI专用
+  password: 92946693-3dfb-4277-9c25-9cf7a71009f6
+  port: 49152
+  server: suyun.laowu.life
+  skip-cert-verify: true
+  sni: suyun.laowu.life
+  type: trojan
+  udp: true
 - name: 美国高速节点1
-  password: 7dbdf5ea-bb4b-4c41-bfc8-37511dfeebaf
+  password: 6a538da4-be38-465a-9338-e86277d4c74f
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
