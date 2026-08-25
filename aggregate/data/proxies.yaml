@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: CANADA
-  password: e39e582a-396e-4112-8f58-3058bac92905
+  password: 520d1a0e-45c9-4a04-95d8-f8b85d9399c1
   port: 13345
   server: 140.238.153.81
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: CHILE
-  password: e39e582a-396e-4112-8f58-3058bac92905
+  password: 520d1a0e-45c9-4a04-95d8-f8b85d9399c1
   port: 23345
   server: 129.151.99.94
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: FRANCE
-  password: e39e582a-396e-4112-8f58-3058bac92905
+  password: 520d1a0e-45c9-4a04-95d8-f8b85d9399c1
   port: 22345
   server: 141.253.107.174
   type: ss
@@ -30,55 +30,55 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ef57f1df-6805-48f9-8628-39273817d2a4
+  uuid: b2f5bbab-7e60-4920-b111-0ea2cae6bdb4
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - cipher: chacha20-ietf-poly1305
   name: HONG KONG
-  password: e39e582a-396e-4112-8f58-3058bac92905
+  password: 520d1a0e-45c9-4a04-95d8-f8b85d9399c1
   port: 12345
   server: 202.155.141.87
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: KOREA
-  password: e39e582a-396e-4112-8f58-3058bac92905
+  password: 520d1a0e-45c9-4a04-95d8-f8b85d9399c1
   port: 32345
   server: 134.185.109.166
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: SINGAPORE
-  password: e39e582a-396e-4112-8f58-3058bac92905
+  password: 520d1a0e-45c9-4a04-95d8-f8b85d9399c1
   port: 43345
   server: 140.245.121.101
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: SWITZERLAND
-  password: e39e582a-396e-4112-8f58-3058bac92905
+  password: 520d1a0e-45c9-4a04-95d8-f8b85d9399c1
   port: 33345
   server: 140.238.175.124
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: THE UNITED KINGDOM
-  password: e39e582a-396e-4112-8f58-3058bac92905
+  password: 520d1a0e-45c9-4a04-95d8-f8b85d9399c1
   port: 42345
   server: 140.238.64.207
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: UNITED STATES
-  password: e39e582a-396e-4112-8f58-3058bac92905
+  password: 520d1a0e-45c9-4a04-95d8-f8b85d9399c1
   port: 52345
   server: 152.67.250.45
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: Y7-EKB
+  name: Y5-AQL
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
@@ -86,13 +86,13 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 东京节点1
-  password: 62f185cf-7158-41ce-9b4e-7696a9a70b69
+  password: e8590c5a-5960-4e78-bb71-b3f894ab181d
   port: 443
   server: 54.95.114.31
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 62db82d6-c1e9-4061-9786-3067896ecf65
+  password: 5746683b-6262-4b98-a161-130806758c46
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -100,7 +100,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 62db82d6-c1e9-4061-9786-3067896ecf65
+  password: 5746683b-6262-4b98-a161-130806758c46
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -108,7 +108,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 62db82d6-c1e9-4061-9786-3067896ecf65
+  password: 5746683b-6262-4b98-a161-130806758c46
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -116,7 +116,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 62db82d6-c1e9-4061-9786-3067896ecf65
+  password: 5746683b-6262-4b98-a161-130806758c46
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -125,13 +125,21 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本节点1
-  password: 62f185cf-7158-41ce-9b4e-7696a9a70b69
+  password: e8590c5a-5960-4e78-bb71-b3f894ab181d
   port: 20000
   server: 193.111.30.213
   type: ss
   udp: true
+- name: 美国高速-AI专用
+  password: 8c16cfcc-d40c-4c58-90fa-5d152dc3ba69
+  port: 49152
+  server: suyun.laowu.life
+  skip-cert-verify: true
+  sni: suyun.laowu.life
+  type: trojan
+  udp: true
 - name: 美国高速节点1
-  password: 62db82d6-c1e9-4061-9786-3067896ecf65
+  password: 5746683b-6262-4b98-a161-130806758c46
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -140,21 +148,11 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港节点1
-  password: 62f185cf-7158-41ce-9b4e-7696a9a70b69
+  password: e8590c5a-5960-4e78-bb71-b3f894ab181d
   port: 20000
   server: 156.226.169.18
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 马来西亚 01
-  port: 2083
-  server: 45.127.5.132
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7109e83a-c04f-480f-ad7f-179ff04fffb6
 - alterId: 0
   cipher: auto
   name: 德国-法兰克福-001-1A
@@ -165,7 +163,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 74eae6e1-2600-4137-805f-afb26bd162b1
+  uuid: 5028c4a3-9188-4e3f-9353-b735e56ca36f
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -180,7 +178,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: ad0fc5cc-86aa-4db3-98be-4bfe76f4e615
+  uuid: b45bbec7-de82-4a5d-a815-4f2c530e43c1
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -195,7 +193,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 74eae6e1-2600-4137-805f-afb26bd162b1
+  uuid: 5028c4a3-9188-4e3f-9353-b735e56ca36f
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -210,7 +208,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: ad0fc5cc-86aa-4db3-98be-4bfe76f4e615
+  uuid: b45bbec7-de82-4a5d-a815-4f2c530e43c1
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -225,7 +223,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 74eae6e1-2600-4137-805f-afb26bd162b1
+  uuid: 5028c4a3-9188-4e3f-9353-b735e56ca36f
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -240,7 +238,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: ad0fc5cc-86aa-4db3-98be-4bfe76f4e615
+  uuid: b45bbec7-de82-4a5d-a815-4f2c530e43c1
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -255,7 +253,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 74eae6e1-2600-4137-805f-afb26bd162b1
+  uuid: 5028c4a3-9188-4e3f-9353-b735e56ca36f
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
@@ -270,7 +268,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: ad0fc5cc-86aa-4db3-98be-4bfe76f4e615
+  uuid: b45bbec7-de82-4a5d-a815-4f2c530e43c1
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
