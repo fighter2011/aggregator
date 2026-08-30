@@ -9,43 +9,59 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4254e060-5a1a-44a5-b656-214e79945372
+  uuid: 445c473e-2d0a-4078-876b-0669b52d8153
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
+- name: HK-200M
+  password: d79f3fe1-3e49-445d-9dba-5ef90ace2383
+  port: 50000
+  server: hk200m.jiasu.asia
+  skip-cert-verify: true
+  sni: hk200m.jiasu.asia
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
   name: HONG KONG 01
-  password: d547c6d3-cf15-4ff6-8274-f64d4208d66b
+  password: 1a67249a-c76b-4404-8bb0-e1a7796a986b
   port: 20001
   server: 72.244.91.170
   type: ss
   udp: true
+- name: JP-200M
+  password: d79f3fe1-3e49-445d-9dba-5ef90ace2383
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: true
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
+- name: US-200M
+  password: d79f3fe1-3e49-445d-9dba-5ef90ace2383
+  port: 50000
+  server: us200m.jiasu.asia
+  skip-cert-verify: true
+  sni: us200m.jiasu.asia
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
-  name: YG-TAF
+  name: YI-WNZ
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: fca86316-d4fc-4140-886c-75f18f9ceaeb
+  password: df44894f-f9ad-4428-9d06-db01d72d4e22
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
-- name: 中部-美国NETFLIX TIKTOK DISNEY
-  password: 7a817398-b665-4c41-bf96-7a0a53f6e3a0
-  port: 45669
-  server: us.ma-etcs.fun
-  skip-cert-verify: true
-  sni: us.ma-etcs.fun
-  type: trojan
-  udp: true
 - name: 台湾高速节点
-  password: fca86316-d4fc-4140-886c-75f18f9ceaeb
+  password: df44894f-f9ad-4428-9d06-db01d72d4e22
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -53,7 +69,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: fca86316-d4fc-4140-886c-75f18f9ceaeb
+  password: df44894f-f9ad-4428-9d06-db01d72d4e22
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -61,7 +77,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: fca86316-d4fc-4140-886c-75f18f9ceaeb
+  password: df44894f-f9ad-4428-9d06-db01d72d4e22
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -78,7 +94,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: e80b60cc-f9bc-46c7-9115-29ebc820f7b0
+  uuid: 3b120bfc-484c-4d0b-bdf8-30ac8343ee65
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -93,7 +109,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: e80b60cc-f9bc-46c7-9115-29ebc820f7b0
+  uuid: 3b120bfc-484c-4d0b-bdf8-30ac8343ee65
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -108,7 +124,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: e80b60cc-f9bc-46c7-9115-29ebc820f7b0
+  uuid: 3b120bfc-484c-4d0b-bdf8-30ac8343ee65
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -123,13 +139,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: e80b60cc-f9bc-46c7-9115-29ebc820f7b0
+  uuid: 3b120bfc-484c-4d0b-bdf8-30ac8343ee65
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 美国高速节点1
-  password: fca86316-d4fc-4140-886c-75f18f9ceaeb
+  password: df44894f-f9ad-4428-9d06-db01d72d4e22
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
