@@ -9,28 +9,21 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8783e69c-09fb-4800-a41e-6a1912a38804
+  uuid: e6a200ef-fe13-4c59-945c-9902855a723c
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - name: HK-200M
-  password: 5b7aaa79-9728-4115-99ec-7b6b709ffce7
+  password: d85e8617-9bb3-44ff-8e8e-2876928bfeb9
   port: 50000
   server: hk200m.jiasu.asia
   skip-cert-verify: true
   sni: hk200m.jiasu.asia
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: HONG KONG 01
-  password: 10784860-e4f8-447a-b4b2-780a3fb44db1
-  port: 20001
-  server: 72.244.91.170
-  type: ss
-  udp: true
 - name: JP-200M
-  password: 5b7aaa79-9728-4115-99ec-7b6b709ffce7
+  password: d85e8617-9bb3-44ff-8e8e-2876928bfeb9
   port: 50000
   server: jp200m.jiasu.asia
   skip-cert-verify: true
@@ -38,7 +31,7 @@ proxies:
   type: trojan
   udp: true
 - name: US-200M
-  password: 5b7aaa79-9728-4115-99ec-7b6b709ffce7
+  password: d85e8617-9bb3-44ff-8e8e-2876928bfeb9
   port: 50000
   server: us200m.jiasu.asia
   skip-cert-verify: true
@@ -46,14 +39,14 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: YE-NYL
+  name: Y4-DFK
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 41528a4b-4e54-4cbc-9e6f-f11e2a96ecde
+  password: bd9618f8-cea0-410d-baf2-c9a5097fbdb4
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -61,7 +54,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 41528a4b-4e54-4cbc-9e6f-f11e2a96ecde
+  password: bd9618f8-cea0-410d-baf2-c9a5097fbdb4
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -69,7 +62,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 41528a4b-4e54-4cbc-9e6f-f11e2a96ecde
+  password: bd9618f8-cea0-410d-baf2-c9a5097fbdb4
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -77,7 +70,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 41528a4b-4e54-4cbc-9e6f-f11e2a96ecde
+  password: bd9618f8-cea0-410d-baf2-c9a5097fbdb4
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -94,7 +87,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 12154f4c-eab1-4169-994d-58ab2a58c1a7
+  uuid: 7bf54200-628f-47a9-8db9-990e2c7a7774
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -109,7 +102,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 12154f4c-eab1-4169-994d-58ab2a58c1a7
+  uuid: 7bf54200-628f-47a9-8db9-990e2c7a7774
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -124,7 +117,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 12154f4c-eab1-4169-994d-58ab2a58c1a7
+  uuid: 7bf54200-628f-47a9-8db9-990e2c7a7774
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -139,13 +132,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 12154f4c-eab1-4169-994d-58ab2a58c1a7
+  uuid: 7bf54200-628f-47a9-8db9-990e2c7a7774
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 美国高速节点1
-  password: 41528a4b-4e54-4cbc-9e6f-f11e2a96ecde
+  password: bd9618f8-cea0-410d-baf2-c9a5097fbdb4
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
