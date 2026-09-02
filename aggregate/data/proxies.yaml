@@ -9,21 +9,28 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 38140a93-eee4-4a92-b0fb-5927d432e957
+  uuid: 142125d4-7fe8-4ece-9f2b-0a52617a4b35
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - name: HK-200M
-  password: 17d7c24c-18c3-4cba-93e3-fdf74748c6db
+  password: 767df9f6-7840-44b6-bf14-eb0378053f27
   port: 50000
   server: hk200m.jiasu.asia
   skip-cert-verify: true
   sni: hk200m.jiasu.asia
   type: trojan
   udp: true
+- cipher: aes-128-gcm
+  name: HONG KONG 01
+  password: daa67755-c2bb-41b0-a068-4288175a2ac2
+  port: 20001
+  server: 72.244.91.170
+  type: ss
+  udp: true
 - name: JP-200M
-  password: 17d7c24c-18c3-4cba-93e3-fdf74748c6db
+  password: 767df9f6-7840-44b6-bf14-eb0378053f27
   port: 50000
   server: jp200m.jiasu.asia
   skip-cert-verify: true
@@ -31,7 +38,7 @@ proxies:
   type: trojan
   udp: true
 - name: US-200M
-  password: 17d7c24c-18c3-4cba-93e3-fdf74748c6db
+  password: 767df9f6-7840-44b6-bf14-eb0378053f27
   port: 50000
   server: us200m.jiasu.asia
   skip-cert-verify: true
@@ -39,14 +46,14 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: YD-WRY
+  name: YI-HJI
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 9476a3be-3b51-4a20-9eaf-6ed5883b2aa1
+  password: c990bfd4-75ac-48b1-9fa1-9e6127621f26
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -54,7 +61,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 9476a3be-3b51-4a20-9eaf-6ed5883b2aa1
+  password: c990bfd4-75ac-48b1-9fa1-9e6127621f26
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -62,7 +69,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 9476a3be-3b51-4a20-9eaf-6ed5883b2aa1
+  password: c990bfd4-75ac-48b1-9fa1-9e6127621f26
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -70,7 +77,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 9476a3be-3b51-4a20-9eaf-6ed5883b2aa1
+  password: c990bfd4-75ac-48b1-9fa1-9e6127621f26
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -78,7 +85,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国高速节点1
-  password: 9476a3be-3b51-4a20-9eaf-6ed5883b2aa1
+  password: c990bfd4-75ac-48b1-9fa1-9e6127621f26
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
