@@ -1,81 +1,21 @@
 proxies:
 - cipher: aes-128-gcm
-  name: Y2-XNC
+  name: Y0-LAH
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: b27021be-584c-4bc5-9818-49f4989b91ef
+  password: 51606c92-8bf5-48aa-8f05-0afb12b15fdf
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 印度1
-  network: ws
-  port: 443
-  server: ip6-in1.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: ip4-in2.vp1000.net
-    path: /pulicfastpDisney
-- alterId: 0
-  cipher: auto
-  name: 印度2
-  network: ws
-  port: 443
-  server: ip4-in2.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: ip4-in2.vp1000.net
-    path: /pulicfastpDisney
-- alterId: 0
-  cipher: auto
-  name: 印度3
-  network: ws
-  port: 443
-  server: ip6-in3.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: ip4-in4.vp1000.net
-    path: /pulicfastpDisney
-- alterId: 0
-  cipher: auto
-  name: 印度4
-  network: ws
-  port: 443
-  server: ip4-in4.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: ip4-in4.vp1000.net
-    path: /pulicfastpDisney
 - name: 台湾高速节点
-  password: b27021be-584c-4bc5-9818-49f4989b91ef
+  password: 51606c92-8bf5-48aa-8f05-0afb12b15fdf
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -83,7 +23,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: b27021be-584c-4bc5-9818-49f4989b91ef
+  password: 51606c92-8bf5-48aa-8f05-0afb12b15fdf
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -91,120 +31,15 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: b27021be-584c-4bc5-9818-49f4989b91ef
+  password: 51606c92-8bf5-48aa-8f05-0afb12b15fdf
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
   sni: node3.yuntongclouds.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 巴西1
-  network: ws
-  port: 443
-  server: br.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: br.vp1000.net
-    path: /pulicpDisney
-- alterId: 0
-  cipher: auto
-  name: 巴西4
-  network: ws
-  port: 443
-  server: ip6-br5.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: br.vp1000.net
-    path: /pulicpDisney
-- alterId: 0
-  cipher: auto
-  name: 日本1
-  network: ws
-  port: 443
-  server: ip4-jp1.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: ip4-jp1.vp1000.net
-    path: /pulicpaylfastpDisney
-- alterId: 0
-  cipher: auto
-  name: 日本2
-  network: ws
-  port: 443
-  server: ip4-jp2.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: ip4-jp2.vp1000.net
-    path: /pulicpaylfastpDisney
-- alterId: 0
-  cipher: auto
-  name: 日本3
-  network: ws
-  port: 443
-  server: ip6-jp1.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: ip4-jp1.vp1000.net
-    path: /pulicpaylfastpDisney
-- alterId: 0
-  cipher: auto
-  name: 日本4
-  network: ws
-  port: 443
-  server: ip6-jp2.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: ip4-jp2.vp1000.net
-    path: /pulicpaylfastpDisney
-- alterId: 0
-  cipher: auto
-  name: 美国3
-  network: ws
-  port: 443
-  server: us3.vp1000.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
-  ws-opts:
-    headers:
-      Host: us3.vp1000.net
-    path: /cp100vp800kkkdsnx
 - name: 美国高速节点1
-  password: b27021be-584c-4bc5-9818-49f4989b91ef
+  password: 51606c92-8bf5-48aa-8f05-0afb12b15fdf
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -213,14 +48,14 @@ proxies:
   udp: true
 - cipher: aes-128-gcm
   name: HONG KONG 01-1A
-  password: c7a29461-f7af-4af0-aafb-bade79331fa4
+  password: 47a851b7-001e-4b5c-be3a-a82b927d5497
   port: 20001
   server: 72.244.91.170
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: HONG KONG 01-1B
-  password: 582fe2ff-202f-461b-9354-885da6c612dc
+  password: 1540a866-044b-45a4-8dff-be6650085883
   port: 20001
   server: 72.244.91.170
   type: ss
@@ -235,7 +70,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aba1dcde-09d6-424d-90a9-689e7d6c0b34
+  uuid: 3e114ae8-4071-4054-b6c7-b9c3528e7919
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -250,7 +85,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: fa28e2df-23b2-4320-b59a-2695f0e6e259
+  uuid: 4ef8b86c-e9e6-4a80-972d-30a1b37f73bb
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -265,7 +100,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4e5b9f64-7d3d-43b5-98ea-b3a08a4d03cc
+  uuid: 182d6f24-c22d-41b1-be86-77be97c15352
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -280,7 +115,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aba1dcde-09d6-424d-90a9-689e7d6c0b34
+  uuid: 3e114ae8-4071-4054-b6c7-b9c3528e7919
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -295,7 +130,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: fa28e2df-23b2-4320-b59a-2695f0e6e259
+  uuid: 4ef8b86c-e9e6-4a80-972d-30a1b37f73bb
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -310,7 +145,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4e5b9f64-7d3d-43b5-98ea-b3a08a4d03cc
+  uuid: 182d6f24-c22d-41b1-be86-77be97c15352
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -325,7 +160,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aba1dcde-09d6-424d-90a9-689e7d6c0b34
+  uuid: 3e114ae8-4071-4054-b6c7-b9c3528e7919
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -340,7 +175,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: fa28e2df-23b2-4320-b59a-2695f0e6e259
+  uuid: 4ef8b86c-e9e6-4a80-972d-30a1b37f73bb
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -355,7 +190,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4e5b9f64-7d3d-43b5-98ea-b3a08a4d03cc
+  uuid: 182d6f24-c22d-41b1-be86-77be97c15352
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -370,7 +205,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aba1dcde-09d6-424d-90a9-689e7d6c0b34
+  uuid: 3e114ae8-4071-4054-b6c7-b9c3528e7919
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
@@ -385,7 +220,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: fa28e2df-23b2-4320-b59a-2695f0e6e259
+  uuid: 4ef8b86c-e9e6-4a80-972d-30a1b37f73bb
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
@@ -400,7 +235,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4e5b9f64-7d3d-43b5-98ea-b3a08a4d03cc
+  uuid: 182d6f24-c22d-41b1-be86-77be97c15352
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
