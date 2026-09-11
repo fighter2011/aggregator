@@ -1,49 +1,17 @@
 proxies:
 - cipher: aes-128-gcm
-  name: Y3-THI
+  name: Y2-XNC
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 0a712781-5e08-4496-92d6-29920b58ae1b
+  password: b27021be-584c-4bc5-9818-49f4989b91ef
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
-  type: trojan
-  udp: true
-- name: 俄罗斯 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4059
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 加拿大 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4065
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 印尼 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4058
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 印度 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4057
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
   type: trojan
   udp: true
 - alterId: 0
@@ -56,7 +24,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: ip4-in2.vp1000.net
@@ -71,7 +39,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: ip4-in2.vp1000.net
@@ -86,7 +54,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: ip4-in4.vp1000.net
@@ -101,45 +69,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: ip4-in4.vp1000.net
     path: /pulicfastpDisney
-- name: 台湾 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4003
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 台湾 02
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4004
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 台湾 03
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4027
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 台湾原生隧道
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21368
-  server: qingfeng.qnycjxt.cn
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
 - name: 台湾高速节点
-  password: 0a712781-5e08-4496-92d6-29920b58ae1b
+  password: b27021be-584c-4bc5-9818-49f4989b91ef
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -147,7 +83,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 0a712781-5e08-4496-92d6-29920b58ae1b
+  password: b27021be-584c-4bc5-9818-49f4989b91ef
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -155,27 +91,11 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 0a712781-5e08-4496-92d6-29920b58ae1b
+  password: b27021be-584c-4bc5-9818-49f4989b91ef
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
   sni: node3.yuntongclouds.com
-  type: trojan
-  udp: true
-- name: 土耳其 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4055
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 巴西 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4062
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
   type: trojan
   udp: true
 - alterId: 0
@@ -188,7 +108,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: br.vp1000.net
@@ -203,135 +123,11 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: br.vp1000.net
     path: /pulicpDisney
-- name: 德国 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4064
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-001
-  network: ws
-  port: 443
-  server: cxsfvn.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d0047d5e-6086-44ba-979b-86affd2b78a0
-  ws-opts:
-    headers:
-      Host: cxsfvn.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-002
-  network: ws
-  port: 8443
-  server: zzrt.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d0047d5e-6086-44ba-979b-86affd2b78a0
-  ws-opts:
-    headers:
-      Host: zzrt.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-003
-  network: ws
-  port: 8443
-  server: hwtqcp.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d0047d5e-6086-44ba-979b-86affd2b78a0
-  ws-opts:
-    headers:
-      Host: hwtqcp.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-004
-  network: ws
-  port: 443
-  server: qvxbtx.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d0047d5e-6086-44ba-979b-86affd2b78a0
-  ws-opts:
-    headers:
-      Host: qvxbtx.uhomdex.shop
-    path: /
-- name: 新加坡 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4000
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 新加坡 02
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4008
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 新加坡 03
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4012
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 新加坡隧道
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21374
-  server: qingfeng.qnycjxt.cn
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-- name: 日本 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4002
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 日本 02
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4010
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 日本 03
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4029
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 日本1
@@ -342,7 +138,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: ip4-jp1.vp1000.net
@@ -357,7 +153,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: ip4-jp2.vp1000.net
@@ -372,7 +168,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: ip4-jp1.vp1000.net
@@ -387,67 +183,11 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: ip4-jp2.vp1000.net
     path: /pulicpaylfastpDisney
-- name: 日本隧道解锁OPENAI
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21363
-  server: qingfeng.qnycjxt.cn
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-- name: 泰国 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4060
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 泰国隧道解锁OPENAI
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21372
-  server: qingfeng.qnycjxt.cn
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-- name: 澳大利亚 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4063
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 美国 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4001
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 美国 02
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4011
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
-- name: 美国 03
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4009
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 美国3
@@ -458,152 +198,210 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: aa3b3f7a-e174-492d-894f-56c1cb725772
+  uuid: 90cca57d-781e-4cb7-854b-0e39b84991c4
   ws-opts:
     headers:
       Host: us3.vp1000.net
     path: /cp100vp800kkkdsnx
-- name: 美国洛杉矶
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21970
-  server: qingfeng.qnycjxt.cn
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-- name: 美国纽约
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21370
-  server: qingfeng.qnycjxt.cn
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
-- name: 美国西雅图
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 31370
-  server: qingfeng.qnycjxt.cn
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
 - name: 美国高速节点1
-  password: 0a712781-5e08-4496-92d6-29920b58ae1b
+  password: b27021be-584c-4bc5-9818-49f4989b91ef
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
-- name: 美国高速隧道
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21367
-  server: qingfeng.qnycjxt.cn
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+- cipher: aes-128-gcm
+  name: HONG KONG 01-1A
+  password: c7a29461-f7af-4af0-aafb-bade79331fa4
+  port: 20001
+  server: 72.244.91.170
+  type: ss
   udp: true
-- name: 英国 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4053
-  server: 124.71.61.72
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
+- cipher: aes-128-gcm
+  name: HONG KONG 01-1B
+  password: 582fe2ff-202f-461b-9354-885da6c612dc
+  port: 20001
+  server: 72.244.91.170
+  type: ss
   udp: true
-- name: 英国隧道解锁OPENAI
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21373
-  server: qingfeng.qnycjxt.cn
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-001-1A
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 荷兰 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4061
-  server: 124.71.61.72
+  uuid: aba1dcde-09d6-424d-90a9-689e7d6c0b34
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-001-1B
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
   skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 菲律宾 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4056
-  server: 124.71.61.72
+  uuid: fa28e2df-23b2-4320-b59a-2695f0e6e259
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-001-1C
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
   skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 越南原生1隧道解锁OPENAI
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21369
-  server: qingfeng.qnycjxt.cn
+  uuid: 4e5b9f64-7d3d-43b5-98ea-b3a08a4d03cc
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-002-1A
+  network: ws
+  port: 8443
+  server: zzrt.uhomdex.shop
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 韩国
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21908
-  server: qingfeng.qnycjxt.cn
+  uuid: aba1dcde-09d6-424d-90a9-689e7d6c0b34
+  ws-opts:
+    headers:
+      Host: zzrt.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-002-1B
+  network: ws
+  port: 8443
+  server: zzrt.uhomdex.shop
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 韩国 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4052
-  server: 124.71.61.72
+  uuid: fa28e2df-23b2-4320-b59a-2695f0e6e259
+  ws-opts:
+    headers:
+      Host: zzrt.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-002-1C
+  network: ws
+  port: 8443
+  server: zzrt.uhomdex.shop
   skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 香港
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21371
-  server: qingfeng.qnycjxt.cn
+  uuid: 4e5b9f64-7d3d-43b5-98ea-b3a08a4d03cc
+  ws-opts:
+    headers:
+      Host: zzrt.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-003-1A
+  network: ws
+  port: 8443
+  server: hwtqcp.uhomdex.shop
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 香港 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4005
-  server: 124.71.61.72
+  uuid: aba1dcde-09d6-424d-90a9-689e7d6c0b34
+  ws-opts:
+    headers:
+      Host: hwtqcp.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-003-1B
+  network: ws
+  port: 8443
+  server: hwtqcp.uhomdex.shop
   skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 香港 02
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4006
-  server: 124.71.61.72
+  uuid: fa28e2df-23b2-4320-b59a-2695f0e6e259
+  ws-opts:
+    headers:
+      Host: hwtqcp.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-003-1C
+  network: ws
+  port: 8443
+  server: hwtqcp.uhomdex.shop
   skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 香港 03
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4007
-  server: 124.71.61.72
+  uuid: 4e5b9f64-7d3d-43b5-98ea-b3a08a4d03cc
+  ws-opts:
+    headers:
+      Host: hwtqcp.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-004-1A
+  network: ws
+  port: 443
+  server: qvxbtx.uhomdex.shop
   skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 香港原生隧道
-  password: 0deec595-aa0d-4d2b-b2f4-b72630459ac3
-  port: 21364
-  server: qingfeng.qnycjxt.cn
+  uuid: aba1dcde-09d6-424d-90a9-689e7d6c0b34
+  ws-opts:
+    headers:
+      Host: qvxbtx.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-004-1B
+  network: ws
+  port: 443
+  server: qvxbtx.uhomdex.shop
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: 马来西亚 01
-  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
-  port: 4054
-  server: 124.71.61.72
+  uuid: fa28e2df-23b2-4320-b59a-2695f0e6e259
+  ws-opts:
+    headers:
+      Host: qvxbtx.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-004-1C
+  network: ws
+  port: 443
+  server: qvxbtx.uhomdex.shop
   skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: 4e5b9f64-7d3d-43b5-98ea-b3a08a4d03cc
+  ws-opts:
+    headers:
+      Host: qvxbtx.uhomdex.shop
+    path: /
