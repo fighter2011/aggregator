@@ -1,13 +1,13 @@
 proxies:
 - cipher: aes-128-gcm
-  name: Y5-ALF
+  name: Y7-SDM
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: e1bcef8f-4cc9-4930-a4f0-e69e95d1f88f
+  password: bf7da739-873f-4f1d-8f99-26396f994d2a
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -15,7 +15,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: e1bcef8f-4cc9-4930-a4f0-e69e95d1f88f
+  password: bf7da739-873f-4f1d-8f99-26396f994d2a
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -23,7 +23,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: e1bcef8f-4cc9-4930-a4f0-e69e95d1f88f
+  password: bf7da739-873f-4f1d-8f99-26396f994d2a
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -31,7 +31,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: e1bcef8f-4cc9-4930-a4f0-e69e95d1f88f
+  password: bf7da739-873f-4f1d-8f99-26396f994d2a
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -48,7 +48,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 23461047-a1f5-4f60-9747-25359d3e35d2
+  uuid: e2bb1e5d-b3d4-404c-8433-12fc7f5a6402
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -63,7 +63,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 23461047-a1f5-4f60-9747-25359d3e35d2
+  uuid: e2bb1e5d-b3d4-404c-8433-12fc7f5a6402
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -78,7 +78,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 23461047-a1f5-4f60-9747-25359d3e35d2
+  uuid: e2bb1e5d-b3d4-404c-8433-12fc7f5a6402
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -93,30 +93,16 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 23461047-a1f5-4f60-9747-25359d3e35d2
+  uuid: e2bb1e5d-b3d4-404c-8433-12fc7f5a6402
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 美国高速节点1
-  password: e1bcef8f-4cc9-4930-a4f0-e69e95d1f88f
+  password: bf7da739-873f-4f1d-8f99-26396f994d2a
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: HONG KONG 01-1A
-  password: 85fb74fd-77ae-4166-932e-c2e1be389337
-  port: 20001
-  server: 72.244.91.170
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: HONG KONG 01-1B
-  password: e065e027-cf75-406a-b0b3-8624be8f28eb
-  port: 20001
-  server: 72.244.91.170
-  type: ss
   udp: true
