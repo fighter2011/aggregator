@@ -1,20 +1,13 @@
 proxies:
 - cipher: aes-128-gcm
-  name: HONG KONG 01
-  password: f9cc0250-c827-4275-8aaf-6a078ca006dd
-  port: 20001
-  server: 72.244.91.170
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: Y2-JZL
+  name: YK-SRD
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 530880b6-16ec-4fc2-905d-6ad44efd63f1
+  password: 467f663b-9a1e-429a-a193-ba1b2a4b9346
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -22,7 +15,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 530880b6-16ec-4fc2-905d-6ad44efd63f1
+  password: 467f663b-9a1e-429a-a193-ba1b2a4b9346
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -30,7 +23,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 530880b6-16ec-4fc2-905d-6ad44efd63f1
+  password: 467f663b-9a1e-429a-a193-ba1b2a4b9346
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -38,7 +31,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 530880b6-16ec-4fc2-905d-6ad44efd63f1
+  password: 467f663b-9a1e-429a-a193-ba1b2a4b9346
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -55,7 +48,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 6d941a44-6b50-4528-9d36-aca1fa2438b2
+  uuid: a68f8986-1589-4462-b1e3-3084e6d39ac6
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -70,7 +63,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 6d941a44-6b50-4528-9d36-aca1fa2438b2
+  uuid: a68f8986-1589-4462-b1e3-3084e6d39ac6
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -85,7 +78,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 6d941a44-6b50-4528-9d36-aca1fa2438b2
+  uuid: a68f8986-1589-4462-b1e3-3084e6d39ac6
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -100,13 +93,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 6d941a44-6b50-4528-9d36-aca1fa2438b2
+  uuid: a68f8986-1589-4462-b1e3-3084e6d39ac6
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 美国高速节点1
-  password: 530880b6-16ec-4fc2-905d-6ad44efd63f1
+  password: 467f663b-9a1e-429a-a193-ba1b2a4b9346
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
