@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: AP-QNB
+  name: AO-VXH
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
@@ -16,13 +16,20 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4825e694-56b5-4ae5-b9ab-9155ed5419c9
+  uuid: ab5f0ca5-5c59-43a3-ba4b-8ea14aa5c84f
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
+- cipher: aes-128-gcm
+  name: HONG KONG 01
+  password: c8b4f5e4-494d-4535-902d-de4c59df29eb
+  port: 20001
+  server: 72.244.91.170
+  type: ss
+  udp: true
 - name: 中国联通节点1
-  password: 6057b94b-f164-4cd1-b468-6dc4afb87429
+  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -30,7 +37,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 6057b94b-f164-4cd1-b468-6dc4afb87429
+  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -38,7 +45,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 6057b94b-f164-4cd1-b468-6dc4afb87429
+  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -46,78 +53,32 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 6057b94b-f164-4cd1-b468-6dc4afb87429
+  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
   sni: node3.yuntongclouds.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-001
-  network: ws
-  port: 443
-  server: cxsfvn.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 41df5119-36f0-4cdd-8afd-bd47a00ada4b
-  ws-opts:
-    headers:
-      Host: cxsfvn.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-002
-  network: ws
+- cipher: aes-128-gcm
+  name: 日本-兼容
+  password: 9f1e4c75-3a28-4b96-b889-907c9ef0823a
   port: 8443
-  server: zzrt.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+  server: 45.76.215.91
+  type: ss
   udp: true
-  uuid: 41df5119-36f0-4cdd-8afd-bd47a00ada4b
-  ws-opts:
-    headers:
-      Host: zzrt.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-003
-  network: ws
-  port: 8443
-  server: hwtqcp.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 41df5119-36f0-4cdd-8afd-bd47a00ada4b
-  ws-opts:
-    headers:
-      Host: hwtqcp.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-004
-  network: ws
-  port: 443
-  server: qvxbtx.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 41df5119-36f0-4cdd-8afd-bd47a00ada4b
-  ws-opts:
-    headers:
-      Host: qvxbtx.uhomdex.shop
-    path: /
 - name: 美国高速节点1
-  password: 6057b94b-f164-4cd1-b468-6dc4afb87429
+  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港-兼容
+  password: 9f1e4c75-3a28-4b96-b889-907c9ef0823a
+  port: 8444
+  server: 191.223.214.11
+  type: ss
   udp: true
