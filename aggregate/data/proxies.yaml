@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: AO-VXH
+  name: A4-HNO
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
@@ -16,20 +16,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ab5f0ca5-5c59-43a3-ba4b-8ea14aa5c84f
+  uuid: 5dbf25ab-6672-4b0a-a1f0-97622d17ecce
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
-- cipher: aes-128-gcm
-  name: HONG KONG 01
-  password: c8b4f5e4-494d-4535-902d-de4c59df29eb
-  port: 20001
-  server: 72.244.91.170
-  type: ss
-  udp: true
 - name: 中国联通节点1
-  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
+  password: 781555d1-54b1-42b4-8e37-3646c218fc6a
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -37,7 +30,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
+  password: 781555d1-54b1-42b4-8e37-3646c218fc6a
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -45,7 +38,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
+  password: 781555d1-54b1-42b4-8e37-3646c218fc6a
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -53,7 +46,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
+  password: 781555d1-54b1-42b4-8e37-3646c218fc6a
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -62,13 +55,13 @@ proxies:
   udp: true
 - cipher: aes-128-gcm
   name: 日本-兼容
-  password: 9f1e4c75-3a28-4b96-b889-907c9ef0823a
+  password: 76fc9a86-ce57-4707-839c-9781a611618e
   port: 8443
   server: 45.76.215.91
   type: ss
   udp: true
 - name: 美国高速节点1
-  password: c6f4e98a-8937-4863-a39c-ab0b070e2bef
+  password: 781555d1-54b1-42b4-8e37-3646c218fc6a
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -77,7 +70,7 @@ proxies:
   udp: true
 - cipher: aes-128-gcm
   name: 香港-兼容
-  password: 9f1e4c75-3a28-4b96-b889-907c9ef0823a
+  password: 76fc9a86-ce57-4707-839c-9781a611618e
   port: 8444
   server: 191.223.214.11
   type: ss
