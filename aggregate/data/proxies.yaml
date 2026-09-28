@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: AY-QJT
+  name: AW-JXP
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
@@ -16,20 +16,20 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ea390f66-6dd7-461f-b1e6-e67b3755382b
+  uuid: 1e37dfbe-4a08-4bcc-819c-dd071fcdff2d
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - cipher: aes-128-gcm
   name: HONG KONG 01
-  password: e0fd2659-db87-4263-b8e8-16267439f0e7
+  password: 12924f8a-9f3a-456f-bb35-a879c52d150f
   port: 20001
   server: 72.244.91.170
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: f5616aff-63cc-4afb-8d1b-27da90f79109
+  password: 35e57fb8-e9c2-4b9c-a4a4-2948495d1903
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -37,7 +37,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: f5616aff-63cc-4afb-8d1b-27da90f79109
+  password: 35e57fb8-e9c2-4b9c-a4a4-2948495d1903
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -45,7 +45,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: f5616aff-63cc-4afb-8d1b-27da90f79109
+  password: 35e57fb8-e9c2-4b9c-a4a4-2948495d1903
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -53,7 +53,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: f5616aff-63cc-4afb-8d1b-27da90f79109
+  password: 35e57fb8-e9c2-4b9c-a4a4-2948495d1903
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -70,7 +70,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 995ec377-857e-41c2-a8ad-6ef92fe789ca
+  uuid: 24d62381-d33c-409b-8ca4-bf36ad5bc2d5
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -85,7 +85,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 995ec377-857e-41c2-a8ad-6ef92fe789ca
+  uuid: 24d62381-d33c-409b-8ca4-bf36ad5bc2d5
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -100,7 +100,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 995ec377-857e-41c2-a8ad-6ef92fe789ca
+  uuid: 24d62381-d33c-409b-8ca4-bf36ad5bc2d5
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -115,20 +115,20 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 995ec377-857e-41c2-a8ad-6ef92fe789ca
+  uuid: 24d62381-d33c-409b-8ca4-bf36ad5bc2d5
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - cipher: aes-128-gcm
   name: 日本-兼容
-  password: 761b349c-d266-4354-b758-f5f6aa06fd54
+  password: 17d91504-65a4-4b9e-a3bc-f9038fb5ce1b
   port: 8443
   server: 45.76.215.91
   type: ss
   udp: true
 - name: 美国高速节点1
-  password: f5616aff-63cc-4afb-8d1b-27da90f79109
+  password: 35e57fb8-e9c2-4b9c-a4a4-2948495d1903
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -137,7 +137,7 @@ proxies:
   udp: true
 - cipher: aes-128-gcm
   name: 香港-兼容
-  password: 761b349c-d266-4354-b758-f5f6aa06fd54
+  password: 17d91504-65a4-4b9e-a3bc-f9038fb5ce1b
   port: 8444
   server: 191.223.214.11
   type: ss
